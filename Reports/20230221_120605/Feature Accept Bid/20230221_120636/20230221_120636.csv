@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Accept Bid,,,,2023-02-21 12:43:41,2023-02-21 12:44:50,1m - 8.876s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Accept Bid/ACB001 - Accept Bid,,,,2023-02-21 12:43:53,2023-02-21 12:44:50,57.004s,PASSED
+"callTestCase(findTestCase(""Pages/Page_home/Navigate to Menu Akun""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:43:53,2023-02-21 12:43:58,5.425s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Navigate to Login Page""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:43:58,2023-02-21 12:44:10,11.410s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Email""), [""email"":""Putriyulina45@gmail.com""], STOP_ON_FAILURE)",,,,2023-02-21 12:44:10,2023-02-21 12:44:13,3.103s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Password""), [""password"":""Puyulputriyulina123""], STOP_ON_FAILURE)",,,,2023-02-21 12:44:13,2023-02-21 12:44:15,2.502s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Click Masuk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:44:15,2023-02-21 12:44:18,2.324s,PASSED
+"callTestCase(findTestCase(""Pages/Page_home/Navigate to Menu Akun""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:44:18,2023-02-21 12:44:23,5.170s,PASSED
+"callTestCase(findTestCase(""Pages/Page_seller_list/Navigate to Daftar Jual""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:44:23,2023-02-21 12:44:24,0.885s,PASSED
+"callTestCase(findTestCase(""Pages/Page_seller_list/Click Diminati""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:44:24,2023-02-21 12:44:25,1.292s,PASSED
+"callTestCase(findTestCase(""Pages/Page_accept_bid/Click List Product Diminati""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:44:25,2023-02-21 12:44:33,8.385s,PASSED
+"callTestCase(findTestCase(""Pages/Page_accept_bid/Click Button Accept""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:44:33,2023-02-21 12:44:35,1.348s,PASSED
+"callTestCase(findTestCase(""Pages/Page_accept_bid/Success to Accept Bid""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:44:35,2023-02-21 12:44:37,2.352s,PASSED
+"callTestCase(findTestCase(""Pages/Page_accept_bid/Back to Detail Product""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:44:37,2023-02-21 12:44:40,3.030s,PASSED
+"callTestCase(findTestCase(""Pages/Page_accept_bid/Click Button Back to List Daftar Jual""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:44:40,2023-02-21 12:44:42,1.435s,PASSED
+"callTestCase(findTestCase(""Pages/Page_daftarjual/Back To Akun Menu""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:44:42,2023-02-21 12:44:44,2.014s,PASSED
+"callTestCase(findTestCase(""Pages/Page_akun/Log Out Account""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:44:44,2023-02-21 12:44:50,6.023s,PASSED

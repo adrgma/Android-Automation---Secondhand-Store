@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>edit_alamat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4b6f34d7-d3ee-4f75-b566-fccf3d3503ee</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d6419808-3af4-4038-b11a-c0a616c0af9b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d6419808-3af4-4038-b11a-c0a616c0af9b</id>
+      <masked>false</masked>
+      <name>alamat</name>
+   </variable>
+</TestCaseEntity>

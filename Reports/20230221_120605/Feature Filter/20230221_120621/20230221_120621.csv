@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Filter,,,,2023-02-21 12:26:09,2023-02-21 12:26:38,28.955s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Filter/FLT001 - Filter,,,,2023-02-21 12:26:21,2023-02-21 12:26:38,17.034s,PASSED
+"callTestCase(findTestCase(""Pages/Page_filter/Click Filter Elektronik""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:26:21,2023-02-21 12:26:26,4.877s,PASSED
+"callTestCase(findTestCase(""Pages/Page_filter/Verify Button Category Elektronik""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:26:26,2023-02-21 12:26:28,2.184s,PASSED
+"callTestCase(findTestCase(""Pages/Page_filter/Click Filter Komputer dan Aksesoris""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:26:28,2023-02-21 12:26:29,0.805s,PASSED
+"callTestCase(findTestCase(""Pages/Page_filter/Verify Button Category Komputer Aksesoris""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:26:29,2023-02-21 12:26:31,2.103s,PASSED
+"callTestCase(findTestCase(""Pages/Page_filter/Click Filter Handphone dan Aksesoris""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:26:31,2023-02-21 12:26:37,6.014s,PASSED
+"callTestCase(findTestCase(""Pages/Page_filter/Verify Button Category Handphone Aksesoris""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:26:37,2023-02-21 12:26:38,0.746s,PASSED

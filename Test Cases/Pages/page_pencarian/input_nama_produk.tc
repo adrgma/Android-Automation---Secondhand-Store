@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>input_nama_produk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3be3730-a3fe-4f17-b629-8e98ef562262</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>78810af6-7d11-45f0-8fba-e985aa06be53</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Baju muslim'</defaultValue>
+      <description></description>
+      <id>78810af6-7d11-45f0-8fba-e985aa06be53</id>
+      <masked>false</masked>
+      <name>nama_produk</name>
+   </variable>
+</TestCaseEntity>

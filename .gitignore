@@ -1,0 +1,13 @@
+*.env
+/bin/
+/settings/
+/console properties/
+/Libs/
+/Reports/
+.classpath
+.settings
+.project
+.cache
+*.gradle
+*.log
+/android-automation-testing-kelompok-1.git.prj

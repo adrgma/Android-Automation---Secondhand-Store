@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Edit Profile" time="105.076" tests="1" failures="0" errors="0">
+   <testsuite name="Feature Edit Profile" tests="1" failures="0" errors="0" time="105.076" skipped="0" timestamp="2023-02-21 12:21:10" hostname="ADITIA ARGA PRATAMA - LAPTOP-L0K8P5OF" id="Test Suites/Feature Edit Profile">
+      <properties>
+         <property name="deviceName" value="samsung SM-A525F (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\android-automation-testing-kelompok-1.git\\Reports\\20230221_120605\\Feature Edit Profile\\20230221_120615"/>
+         <property name="logFiles" value="D:\\android-automation-testing-kelompok-1.git\\Reports\\20230221_120605\\Feature Edit Profile\\20230221_120615\\appium.log, D:\\android-automation-testing-kelompok-1.git\\Reports\\20230221_120605\\Feature Edit Profile\\20230221_120615\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ADITIA ARGA PRATAMA - LAPTOP-L0K8P5OF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A525F"/>
+         <property name="hostAddress" value="192.168.0.139"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8R602SN8Y"/>
+         <property name="deviceName" value="samsung SM-A525F (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/Feature Edit Profile/EPR001 - Edit Profile" time="93.216" classname="Test Cases/Step Definition/Feature Edit Profile/EPR001 - Edit Profile" status="PASSED">
+         <system-out><![CDATA[2023-02-21 12:21:22 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Edit Profile/EPR001 - Edit Profile: Test Cases/Step Definition/Feature Edit Profile/EPR001 - Edit Profile
+
+2023-02-21 12:21:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_login/Navigate to Login Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_login/Navigate to Login Page' successfully
+
+2023-02-21 12:21:22 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_login/Navigate to Login Page: Test Cases/Pages/Page_login/Navigate to Login Page
+
+2023-02-21 12:21:23 - [TEST_STEP][PASSED] - startApplication("APK/app-release.apk", false): Started app at: 'D:\android-automation-testing-kelompok-1.git\APK\app-release.apk'
+
+2023-02-21 12:21:31 - [MESSAGE][PASSED] - Started app at: 'D:\android-automation-testing-kelompok-1.git\APK\app-release.apk'
+
+2023-02-21 12:21:31 - [TEST_STEP][PASSED] - tap(findTestObject("Page_home/nav_menu_akun"), 2): Tapped on element 'Object Repository/Page_home/nav_menu_akun'
+
+2023-02-21 12:21:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_home/nav_menu_akun'
+
+2023-02-21 12:21:33 - [TEST_STEP][PASSED] - tap(findTestObject("Page_home/btn_masuk"), 2): Tapped on element 'Object Repository/Page_home/btn_masuk'
+
+2023-02-21 12:21:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_home/btn_masuk'
+
+2023-02-21 12:21:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_login/Navigate to Login Page' successfully
+
+2023-02-21 12:21:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_login/Input Email"), ["email":"studentqa3@binar.id"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_login/Input Email' successfully
+
+2023-02-21 12:21:34 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_login/Input Email: Test Cases/Pages/Page_login/Input Email
+
+2023-02-21 12:21:34 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_login/textfield_email"), 3): Element 'Object Repository/Page_login/textfield_email' text is cleared
+
+2023-02-21 12:21:35 - [MESSAGE][PASSED] - Element 'Object Repository/Page_login/textfield_email' text is cleared
+
+2023-02-21 12:21:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_login/textfield_email"), email, 0): Text 'studentqa3@binar.id' has been set to element 'Object Repository/Page_login/textfield_email'
+
+2023-02-21 12:21:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:21:37 - [MESSAGE][PASSED] - Text 'studentqa3@binar.id' has been set to element 'Object Repository/Page_login/textfield_email'
+
+2023-02-21 12:21:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_login/Input Email' successfully
+
+2023-02-21 12:21:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_login/Input Password"), ["password":"studentQA3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_login/Input Password' successfully
+
+2023-02-21 12:21:37 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_login/Input Password: Test Cases/Pages/Page_login/Input Password
+
+2023-02-21 12:21:37 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_login/textfield_password"), 3): Element 'Object Repository/Page_login/textfield_password' text is cleared
+
+2023-02-21 12:21:38 - [MESSAGE][PASSED] - Element 'Object Repository/Page_login/textfield_password' text is cleared
+
+2023-02-21 12:21:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_login/textfield_password"), password, 0): Text 'studentQA3' has been set to element 'Object Repository/Page_login/textfield_password'
+
+2023-02-21 12:21:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:21:40 - [MESSAGE][PASSED] - Text 'studentQA3' has been set to element 'Object Repository/Page_login/textfield_password'
+
+2023-02-21 12:21:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_login/Input Password' successfully
+
+2023-02-21 12:21:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_login/Click Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_login/Click Masuk' successfully
+
+2023-02-21 12:21:40 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_login/Click Masuk: Test Cases/Pages/Page_login/Click Masuk
+
+2023-02-21 12:21:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_login/btn_login"), 2): Element 'Object Repository/Page_login/btn_login' is present
+
+2023-02-21 12:21:40 - [MESSAGE][PASSED] - Element 'Object Repository/Page_login/btn_login' is present
+
+2023-02-21 12:21:40 - [TEST_STEP][PASSED] - tap(findTestObject("Page_login/btn_login"), 2): Tapped on element 'Object Repository/Page_login/btn_login'
+
+2023-02-21 12:21:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_login/btn_login'
+
+2023-02-21 12:21:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_login/Click Masuk' successfully
+
+2023-02-21 12:21:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Icon Pensil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Pensil' successfully
+
+2023-02-21 12:21:42 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Icon Pensil: Test Cases/Pages/Page_profile/Click Icon Pensil
+
+2023-02-21 12:21:42 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/icon_pensil"), 0): Tapped on element 'Object Repository/Page_profile/icon_pensil'
+
+2023-02-21 12:21:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:21:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/icon_pensil'
+
+2023-02-21 12:21:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Pensil' successfully
+
+2023-02-21 12:21:43 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-02-21 12:21:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-02-21 12:21:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Text Nama"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Text Nama' successfully
+
+2023-02-21 12:21:48 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Text Nama: Test Cases/Pages/Page_profile/Click Text Nama
+
+2023-02-21 12:21:48 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/text_nama"), 2): Tapped on element 'Object Repository/Page_profile/text_nama'
+
+2023-02-21 12:21:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/text_nama'
+
+2023-02-21 12:21:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Text Nama' successfully
+
+2023-02-21 12:21:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Edit Nama"), ["nama":"Jeje"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Edit Nama' successfully
+
+2023-02-21 12:21:48 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Edit Nama: Test Cases/Pages/Page_profile/Edit Nama
+
+2023-02-21 12:21:49 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_profile/field_nama"), 2): Element 'Object Repository/Page_profile/field_nama' text is cleared
+
+2023-02-21 12:21:50 - [MESSAGE][PASSED] - Element 'Object Repository/Page_profile/field_nama' text is cleared
+
+2023-02-21 12:21:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_profile/field_nama"), nama, 2): Text 'Jeje' has been set to element 'Object Repository/Page_profile/field_nama'
+
+2023-02-21 12:21:52 - [MESSAGE][PASSED] - Text 'Jeje' has been set to element 'Object Repository/Page_profile/field_nama'
+
+2023-02-21 12:21:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Edit Nama' successfully
+
+2023-02-21 12:21:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Button Simpan Nama"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Button Simpan Nama' successfully
+
+2023-02-21 12:21:52 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Button Simpan Nama: Test Cases/Pages/Page_profile/Click Button Simpan Nama
+
+2023-02-21 12:21:52 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/btn_simpan_nama"), 0): Tapped on element 'Object Repository/Page_profile/btn_simpan_nama'
+
+2023-02-21 12:21:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:21:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/btn_simpan_nama'
+
+2023-02-21 12:21:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Button Simpan Nama' successfully
+
+2023-02-21 12:21:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Label Silang Notif Sukses"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses' successfully
+
+2023-02-21 12:21:53 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses: Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses
+
+2023-02-21 12:21:53 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/label_silang_notif_sukses"), 0): Tapped on element 'Object Repository/Page_profile/label_silang_notif_sukses'
+
+2023-02-21 12:21:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:21:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/label_silang_notif_sukses'
+
+2023-02-21 12:21:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses' successfully
+
+2023-02-21 12:21:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Icon Panah Kembali"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Panah Kembali' successfully
+
+2023-02-21 12:21:55 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Icon Panah Kembali: Test Cases/Pages/Page_profile/Click Icon Panah Kembali
+
+2023-02-21 12:21:55 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/icon_panah_kembali"), 2): Tapped on element 'Object Repository/Page_profile/icon_panah_kembali'
+
+2023-02-21 12:21:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/icon_panah_kembali'
+
+2023-02-21 12:21:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Panah Kembali' successfully
+
+2023-02-21 12:21:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Icon Pensil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Pensil' successfully
+
+2023-02-21 12:21:56 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Icon Pensil: Test Cases/Pages/Page_profile/Click Icon Pensil
+
+2023-02-21 12:21:56 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/icon_pensil"), 0): Tapped on element 'Object Repository/Page_profile/icon_pensil'
+
+2023-02-21 12:21:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:21:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/icon_pensil'
+
+2023-02-21 12:21:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Pensil' successfully
+
+2023-02-21 12:21:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Text Nohp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Text Nohp' successfully
+
+2023-02-21 12:21:57 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Text Nohp: Test Cases/Pages/Page_profile/Click Text Nohp
+
+2023-02-21 12:21:57 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/text_nohp"), 2): Tapped on element 'Object Repository/Page_profile/text_nohp'
+
+2023-02-21 12:21:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/text_nohp'
+
+2023-02-21 12:21:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Text Nohp' successfully
+
+2023-02-21 12:21:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Edit Nohp"), ["nohp":"098276257"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Edit Nohp' successfully
+
+2023-02-21 12:21:58 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Edit Nohp: Test Cases/Pages/Page_profile/Edit Nohp
+
+2023-02-21 12:21:58 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_profile/field_nohp"), 2): Element 'Object Repository/Page_profile/field_nohp' text is cleared
+
+2023-02-21 12:21:59 - [MESSAGE][PASSED] - Element 'Object Repository/Page_profile/field_nohp' text is cleared
+
+2023-02-21 12:21:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_profile/field_nohp"), nohp, 2): Text '098276257' has been set to element 'Object Repository/Page_profile/field_nohp'
+
+2023-02-21 12:22:01 - [MESSAGE][PASSED] - Text '098276257' has been set to element 'Object Repository/Page_profile/field_nohp'
+
+2023-02-21 12:22:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Edit Nohp' successfully
+
+2023-02-21 12:22:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Button Simpan Nohp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Button Simpan Nohp' successfully
+
+2023-02-21 12:22:01 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Button Simpan Nohp: Test Cases/Pages/Page_profile/Click Button Simpan Nohp
+
+2023-02-21 12:22:01 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/btn_simpan_nohp"), 0): Tapped on element 'Object Repository/Page_profile/btn_simpan_nohp'
+
+2023-02-21 12:22:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/btn_simpan_nohp'
+
+2023-02-21 12:22:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Button Simpan Nohp' successfully
+
+2023-02-21 12:22:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Label Silang Notif Sukses"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses' successfully
+
+2023-02-21 12:22:02 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses: Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses
+
+2023-02-21 12:22:02 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/label_silang_notif_sukses"), 0): Tapped on element 'Object Repository/Page_profile/label_silang_notif_sukses'
+
+2023-02-21 12:22:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/label_silang_notif_sukses'
+
+2023-02-21 12:22:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses' successfully
+
+2023-02-21 12:22:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Icon Panah Kembali"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Panah Kembali' successfully
+
+2023-02-21 12:22:04 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Icon Panah Kembali: Test Cases/Pages/Page_profile/Click Icon Panah Kembali
+
+2023-02-21 12:22:04 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/icon_panah_kembali"), 2): Tapped on element 'Object Repository/Page_profile/icon_panah_kembali'
+
+2023-02-21 12:22:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/icon_panah_kembali'
+
+2023-02-21 12:22:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Panah Kembali' successfully
+
+2023-02-21 12:22:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Icon Pensil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Pensil' successfully
+
+2023-02-21 12:22:06 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Icon Pensil: Test Cases/Pages/Page_profile/Click Icon Pensil
+
+2023-02-21 12:22:06 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/icon_pensil"), 0): Tapped on element 'Object Repository/Page_profile/icon_pensil'
+
+2023-02-21 12:22:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/icon_pensil'
+
+2023-02-21 12:22:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Pensil' successfully
+
+2023-02-21 12:22:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Text Kota"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Text Kota' successfully
+
+2023-02-21 12:22:06 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Text Kota: Test Cases/Pages/Page_profile/Click Text Kota
+
+2023-02-21 12:22:07 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/text_kota"), 2): Tapped on element 'Object Repository/Page_profile/text_kota'
+
+2023-02-21 12:22:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/text_kota'
+
+2023-02-21 12:22:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Text Kota' successfully
+
+2023-02-21 12:22:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Edit Kota"), ["kota":"Jogjakarta"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Edit Kota' successfully
+
+2023-02-21 12:22:08 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Edit Kota: Test Cases/Pages/Page_profile/Edit Kota
+
+2023-02-21 12:22:08 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_profile/field_kota"), 2): Element 'Object Repository/Page_profile/field_kota' text is cleared
+
+2023-02-21 12:22:09 - [MESSAGE][PASSED] - Element 'Object Repository/Page_profile/field_kota' text is cleared
+
+2023-02-21 12:22:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_profile/field_kota"), kota, 2): Text 'Jogjakarta' has been set to element 'Object Repository/Page_profile/field_kota'
+
+2023-02-21 12:22:11 - [MESSAGE][PASSED] - Text 'Jogjakarta' has been set to element 'Object Repository/Page_profile/field_kota'
+
+2023-02-21 12:22:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Edit Kota' successfully
+
+2023-02-21 12:22:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Button Simpan Kota"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Button Simpan Kota' successfully
+
+2023-02-21 12:22:11 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Button Simpan Kota: Test Cases/Pages/Page_profile/Click Button Simpan Kota
+
+2023-02-21 12:22:11 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/btn_simpan_kota"), 0): Tapped on element 'Object Repository/Page_profile/btn_simpan_kota'
+
+2023-02-21 12:22:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/btn_simpan_kota'
+
+2023-02-21 12:22:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Button Simpan Kota' successfully
+
+2023-02-21 12:22:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Label Silang Notif Sukses"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses' successfully
+
+2023-02-21 12:22:12 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses: Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses
+
+2023-02-21 12:22:12 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/label_silang_notif_sukses"), 0): Tapped on element 'Object Repository/Page_profile/label_silang_notif_sukses'
+
+2023-02-21 12:22:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/label_silang_notif_sukses'
+
+2023-02-21 12:22:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses' successfully
+
+2023-02-21 12:22:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Icon Panah Kembali"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Panah Kembali' successfully
+
+2023-02-21 12:22:14 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Icon Panah Kembali: Test Cases/Pages/Page_profile/Click Icon Panah Kembali
+
+2023-02-21 12:22:14 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/icon_panah_kembali"), 2): Tapped on element 'Object Repository/Page_profile/icon_panah_kembali'
+
+2023-02-21 12:22:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/icon_panah_kembali'
+
+2023-02-21 12:22:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Panah Kembali' successfully
+
+2023-02-21 12:22:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Icon Pensil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Pensil' successfully
+
+2023-02-21 12:22:16 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Icon Pensil: Test Cases/Pages/Page_profile/Click Icon Pensil
+
+2023-02-21 12:22:16 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/icon_pensil"), 0): Tapped on element 'Object Repository/Page_profile/icon_pensil'
+
+2023-02-21 12:22:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/icon_pensil'
+
+2023-02-21 12:22:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Pensil' successfully
+
+2023-02-21 12:22:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Text Alamat"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Text Alamat' successfully
+
+2023-02-21 12:22:16 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Text Alamat: Test Cases/Pages/Page_profile/Click Text Alamat
+
+2023-02-21 12:22:16 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/text_alamat"), 0): Tapped on element 'Object Repository/Page_profile/text_alamat'
+
+2023-02-21 12:22:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/text_alamat'
+
+2023-02-21 12:22:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Text Alamat' successfully
+
+2023-02-21 12:22:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Edit Alamat"), ["alamat":"Jogja"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Edit Alamat' successfully
+
+2023-02-21 12:22:18 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Edit Alamat: Test Cases/Pages/Page_profile/Edit Alamat
+
+2023-02-21 12:22:18 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_profile/field_alamat"), 0): Element 'Object Repository/Page_profile/field_alamat' text is cleared
+
+2023-02-21 12:22:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:19 - [MESSAGE][PASSED] - Element 'Object Repository/Page_profile/field_alamat' text is cleared
+
+2023-02-21 12:22:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_profile/field_alamat"), alamat, 0): Text 'Jogja' has been set to element 'Object Repository/Page_profile/field_alamat'
+
+2023-02-21 12:22:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:20 - [MESSAGE][PASSED] - Text 'Jogja' has been set to element 'Object Repository/Page_profile/field_alamat'
+
+2023-02-21 12:22:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Edit Alamat' successfully
+
+2023-02-21 12:22:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Button Simpan Alamat"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Button Simpan Alamat' successfully
+
+2023-02-21 12:22:20 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Button Simpan Alamat: Test Cases/Pages/Page_profile/Click Button Simpan Alamat
+
+2023-02-21 12:22:20 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/btn_simpan_alamat"), 0): Tapped on element 'Object Repository/Page_profile/btn_simpan_alamat'
+
+2023-02-21 12:22:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/btn_simpan_alamat'
+
+2023-02-21 12:22:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Button Simpan Alamat' successfully
+
+2023-02-21 12:22:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Label Silang Notif Sukses"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses' successfully
+
+2023-02-21 12:22:21 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses: Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses
+
+2023-02-21 12:22:21 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/label_silang_notif_sukses"), 0): Tapped on element 'Object Repository/Page_profile/label_silang_notif_sukses'
+
+2023-02-21 12:22:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/label_silang_notif_sukses'
+
+2023-02-21 12:22:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses' successfully
+
+2023-02-21 12:22:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Icon Panah Kembali"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Panah Kembali' successfully
+
+2023-02-21 12:22:23 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Icon Panah Kembali: Test Cases/Pages/Page_profile/Click Icon Panah Kembali
+
+2023-02-21 12:22:23 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/icon_panah_kembali"), 2): Tapped on element 'Object Repository/Page_profile/icon_panah_kembali'
+
+2023-02-21 12:22:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/icon_panah_kembali'
+
+2023-02-21 12:22:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Panah Kembali' successfully
+
+2023-02-21 12:22:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Icon Pensil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Pensil' successfully
+
+2023-02-21 12:22:25 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Icon Pensil: Test Cases/Pages/Page_profile/Click Icon Pensil
+
+2023-02-21 12:22:25 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/icon_pensil"), 0): Tapped on element 'Object Repository/Page_profile/icon_pensil'
+
+2023-02-21 12:22:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/icon_pensil'
+
+2023-02-21 12:22:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Pensil' successfully
+
+2023-02-21 12:22:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Text Edit Email"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Text Edit Email' successfully
+
+2023-02-21 12:22:25 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Text Edit Email: Test Cases/Pages/Page_profile/Click Text Edit Email
+
+2023-02-21 12:22:25 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/text_email"), 0): Tapped on element 'Object Repository/Page_profile/text_email'
+
+2023-02-21 12:22:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/text_email'
+
+2023-02-21 12:22:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Text Edit Email' successfully
+
+2023-02-21 12:22:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Edit Email"), ["email":"studentqa3@binar.id"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Edit Email' successfully
+
+2023-02-21 12:22:27 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Edit Email: Test Cases/Pages/Page_profile/Edit Email
+
+2023-02-21 12:22:27 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_profile/field_edit_email"), 0): Element 'Object Repository/Page_profile/field_edit_email' text is cleared
+
+2023-02-21 12:22:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:28 - [MESSAGE][PASSED] - Element 'Object Repository/Page_profile/field_edit_email' text is cleared
+
+2023-02-21 12:22:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_profile/field_edit_email"), email, 0): Text 'studentqa3@binar.id' has been set to element 'Object Repository/Page_profile/field_edit_email'
+
+2023-02-21 12:22:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:30 - [MESSAGE][PASSED] - Text 'studentqa3@binar.id' has been set to element 'Object Repository/Page_profile/field_edit_email'
+
+2023-02-21 12:22:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Edit Email' successfully
+
+2023-02-21 12:22:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Button Simpan Email"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Button Simpan Email' successfully
+
+2023-02-21 12:22:30 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Button Simpan Email: Test Cases/Pages/Page_profile/Click Button Simpan Email
+
+2023-02-21 12:22:30 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/btn_simpan_email"), 0): Tapped on element 'Object Repository/Page_profile/btn_simpan_email'
+
+2023-02-21 12:22:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/btn_simpan_email'
+
+2023-02-21 12:22:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Button Simpan Email' successfully
+
+2023-02-21 12:22:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Label Silang Notif Sukses"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses' successfully
+
+2023-02-21 12:22:31 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses: Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses
+
+2023-02-21 12:22:31 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/label_silang_notif_sukses"), 0): Tapped on element 'Object Repository/Page_profile/label_silang_notif_sukses'
+
+2023-02-21 12:22:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/label_silang_notif_sukses'
+
+2023-02-21 12:22:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Label Silang Notif Sukses' successfully
+
+2023-02-21 12:22:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Icon Panah Kembali"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Panah Kembali' successfully
+
+2023-02-21 12:22:33 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Icon Panah Kembali: Test Cases/Pages/Page_profile/Click Icon Panah Kembali
+
+2023-02-21 12:22:33 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/icon_panah_kembali"), 2): Tapped on element 'Object Repository/Page_profile/icon_panah_kembali'
+
+2023-02-21 12:22:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/icon_panah_kembali'
+
+2023-02-21 12:22:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Panah Kembali' successfully
+
+2023-02-21 12:22:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Icon Pensil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Pensil' successfully
+
+2023-02-21 12:22:34 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Icon Pensil: Test Cases/Pages/Page_profile/Click Icon Pensil
+
+2023-02-21 12:22:34 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/icon_pensil"), 0): Tapped on element 'Object Repository/Page_profile/icon_pensil'
+
+2023-02-21 12:22:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/icon_pensil'
+
+2023-02-21 12:22:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Icon Pensil' successfully
+
+2023-02-21 12:22:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Text Edit Sandi"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Text Edit Sandi' successfully
+
+2023-02-21 12:22:35 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Text Edit Sandi: Test Cases/Pages/Page_profile/Click Text Edit Sandi
+
+2023-02-21 12:22:35 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/text_kata_sandi"), 0): Tapped on element 'Object Repository/Page_profile/text_kata_sandi'
+
+2023-02-21 12:22:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/text_kata_sandi'
+
+2023-02-21 12:22:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Text Edit Sandi' successfully
+
+2023-02-21 12:22:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Edit Sandi Lama"), ["sandi_lama":"studentQA3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Edit Sandi Lama' successfully
+
+2023-02-21 12:22:36 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Edit Sandi Lama: Test Cases/Pages/Page_profile/Edit Sandi Lama
+
+2023-02-21 12:22:37 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_profile/field_sandi_lama"), 2): Element 'Object Repository/Page_profile/field_sandi_lama' text is cleared
+
+2023-02-21 12:22:38 - [MESSAGE][PASSED] - Element 'Object Repository/Page_profile/field_sandi_lama' text is cleared
+
+2023-02-21 12:22:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_profile/field_sandi_lama"), sandi_lama, 2): Text 'studentQA3' has been set to element 'Object Repository/Page_profile/field_sandi_lama'
+
+2023-02-21 12:22:40 - [MESSAGE][PASSED] - Text 'studentQA3' has been set to element 'Object Repository/Page_profile/field_sandi_lama'
+
+2023-02-21 12:22:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Edit Sandi Lama' successfully
+
+2023-02-21 12:22:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Edit Sandi Baru"), ["sandi_baru":"studentQA3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Edit Sandi Baru' successfully
+
+2023-02-21 12:22:40 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Edit Sandi Baru: Test Cases/Pages/Page_profile/Edit Sandi Baru
+
+2023-02-21 12:22:40 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_profile/field_sandi_baru"), 2): Element 'Object Repository/Page_profile/field_sandi_baru' text is cleared
+
+2023-02-21 12:22:40 - [MESSAGE][PASSED] - Element 'Object Repository/Page_profile/field_sandi_baru' text is cleared
+
+2023-02-21 12:22:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_profile/field_sandi_baru"), sandi_baru, 2): Text 'studentQA3' has been set to element 'Object Repository/Page_profile/field_sandi_baru'
+
+2023-02-21 12:22:42 - [MESSAGE][PASSED] - Text 'studentQA3' has been set to element 'Object Repository/Page_profile/field_sandi_baru'
+
+2023-02-21 12:22:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Edit Sandi Baru' successfully
+
+2023-02-21 12:22:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Edit Sandi Baru Konfirm"), ["konfirm_sandi_baru":"studentQA3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Edit Sandi Baru Konfirm' successfully
+
+2023-02-21 12:22:42 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Edit Sandi Baru Konfirm: Test Cases/Pages/Page_profile/Edit Sandi Baru Konfirm
+
+2023-02-21 12:22:42 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_profile/field_konfirm_sandibaru"), 2): Element 'Object Repository/Page_profile/field_konfirm_sandibaru' text is cleared
+
+2023-02-21 12:22:43 - [MESSAGE][PASSED] - Element 'Object Repository/Page_profile/field_konfirm_sandibaru' text is cleared
+
+2023-02-21 12:22:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_profile/field_konfirm_sandibaru"), konfirm_sandi_baru, 2): Text 'studentQA3' has been set to element 'Object Repository/Page_profile/field_konfirm_sandibaru'
+
+2023-02-21 12:22:45 - [MESSAGE][PASSED] - Text 'studentQA3' has been set to element 'Object Repository/Page_profile/field_konfirm_sandibaru'
+
+2023-02-21 12:22:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Edit Sandi Baru Konfirm' successfully
+
+2023-02-21 12:22:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Click Button Simpan Sandi"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Click Button Simpan Sandi' successfully
+
+2023-02-21 12:22:45 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Click Button Simpan Sandi: Test Cases/Pages/Page_profile/Click Button Simpan Sandi
+
+2023-02-21 12:22:45 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/btn_simpan_sandi"), 2): Tapped on element 'Object Repository/Page_profile/btn_simpan_sandi'
+
+2023-02-21 12:22:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/btn_simpan_sandi'
+
+2023-02-21 12:22:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Click Button Simpan Sandi' successfully
+
+2023-02-21 12:22:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Label Sukses Update"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Label Sukses Update' successfully
+
+2023-02-21 12:22:46 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Label Sukses Update: Test Cases/Pages/Page_profile/Label Sukses Update
+
+2023-02-21 12:22:46 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/lbl_sukses_update"), 2): Tapped on element 'Object Repository/Page_profile/lbl_sukses_update'
+
+2023-02-21 12:22:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/lbl_sukses_update'
+
+2023-02-21 12:22:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Label Sukses Update' successfully
+
+2023-02-21 12:22:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_profile/Back to Menu Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_profile/Back to Menu Akun' successfully
+
+2023-02-21 12:22:48 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_profile/Back to Menu Akun: Test Cases/Pages/Page_profile/Back to Menu Akun
+
+2023-02-21 12:22:48 - [TEST_STEP][PASSED] - tap(findTestObject("Page_profile/btn_back_to_menu_akun"), 0): Tapped on element 'Object Repository/Page_profile/btn_back_to_menu_akun'
+
+2023-02-21 12:22:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:22:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_profile/btn_back_to_menu_akun'
+
+2023-02-21 12:22:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_profile/Back to Menu Akun' successfully
+
+2023-02-21 12:22:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_akun/Log Out Account"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_akun/Log Out Account' successfully
+
+2023-02-21 12:22:49 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_akun/Log Out Account: Test Cases/Pages/Page_akun/Log Out Account
+
+2023-02-21 12:22:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_home/Navigate to Menu Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_home/Navigate to Menu Akun' successfully
+
+2023-02-21 12:22:49 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_home/Navigate to Menu Akun: Test Cases/Pages/Page_home/Navigate to Menu Akun
+
+2023-02-21 12:22:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_home/nav_menu_akun"), 2): Element 'Object Repository/Page_home/nav_menu_akun' is present
+
+2023-02-21 12:22:52 - [MESSAGE][PASSED] - Element 'Object Repository/Page_home/nav_menu_akun' is present
+
+2023-02-21 12:22:52 - [TEST_STEP][PASSED] - tap(findTestObject("Page_home/nav_menu_akun"), 2): Tapped on element 'Object Repository/Page_home/nav_menu_akun'
+
+2023-02-21 12:22:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_home/nav_menu_akun'
+
+2023-02-21 12:22:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_home/Navigate to Menu Akun' successfully
+
+2023-02-21 12:22:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_home/Click button log out"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_home/Click button log out' successfully
+
+2023-02-21 12:22:54 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_home/Click button log out: Test Cases/Pages/Page_home/Click button log out
+
+2023-02-21 12:22:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_home/btn_keluar"), 2): Element 'Object Repository/Page_home/btn_keluar' is visible
+
+2023-02-21 12:22:55 - [MESSAGE][PASSED] - Element 'Object Repository/Page_home/btn_keluar' is visible
+
+2023-02-21 12:22:55 - [TEST_STEP][PASSED] - checkElement(findTestObject("Page_home/btn_keluar"), 2): Element 'Object Repository/Page_home/btn_keluar' is checked
+
+2023-02-21 12:22:55 - [MESSAGE][PASSED] - Element 'Object Repository/Page_home/btn_keluar' is checked
+
+2023-02-21 12:22:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_home/Click button log out' successfully
+
+2023-02-21 12:22:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_akun/Log Out Account' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-21 12:21:10 - [TEST_SUITE][PASSED] - Feature Edit Profile: Test Cases/Step Definition/Feature Edit Profile/EPR001 - Edit Profile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

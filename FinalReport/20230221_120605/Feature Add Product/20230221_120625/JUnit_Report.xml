@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Add Product" time="111.304" tests="3" failures="0" errors="0">
+   <testsuite name="Feature Add Product" tests="3" failures="0" errors="0" time="111.304" skipped="0" timestamp="2023-02-21 12:29:43" hostname="ADITIA ARGA PRATAMA - LAPTOP-L0K8P5OF" id="Test Suites/Feature Add Product">
+      <properties>
+         <property name="deviceName" value="samsung SM-A525F (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\android-automation-testing-kelompok-1.git\\Reports\\20230221_120605\\Feature Add Product\\20230221_120625"/>
+         <property name="logFiles" value="D:\\android-automation-testing-kelompok-1.git\\Reports\\20230221_120605\\Feature Add Product\\20230221_120625\\appium.log, D:\\android-automation-testing-kelompok-1.git\\Reports\\20230221_120605\\Feature Add Product\\20230221_120625\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ADITIA ARGA PRATAMA - LAPTOP-L0K8P5OF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A525F"/>
+         <property name="hostAddress" value="192.168.0.139"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8R602SN8Y"/>
+         <property name="deviceName" value="samsung SM-A525F (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/Feature Add Product/ADP001 - Add product with valid input" time="51.74" classname="Test Cases/Step Definition/Feature Add Product/ADP001 - Add product with valid input" status="PASSED">
+         <system-out><![CDATA[2023-02-21 12:29:54 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Add Product/ADP001 - Add product with valid input: Test Cases/Step Definition/Feature Add Product/ADP001 - Add product with valid input
+
+2023-02-21 12:29:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_home/Navigate to Menu Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_home/Navigate to Menu Akun' successfully
+
+2023-02-21 12:29:55 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_home/Navigate to Menu Akun: Test Cases/Pages/Page_home/Navigate to Menu Akun
+
+2023-02-21 12:29:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_home/nav_menu_akun"), 2): Element 'Object Repository/Page_home/nav_menu_akun' is present
+
+2023-02-21 12:29:58 - [MESSAGE][PASSED] - Element 'Object Repository/Page_home/nav_menu_akun' is present
+
+2023-02-21 12:29:58 - [TEST_STEP][PASSED] - tap(findTestObject("Page_home/nav_menu_akun"), 2): Tapped on element 'Object Repository/Page_home/nav_menu_akun'
+
+2023-02-21 12:30:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_home/nav_menu_akun'
+
+2023-02-21 12:30:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_home/Navigate to Menu Akun' successfully
+
+2023-02-21 12:30:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_akun/Click Masuk Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_akun/Click Masuk Button' successfully
+
+2023-02-21 12:30:00 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_akun/Click Masuk Button: Test Cases/Pages/Page_akun/Click Masuk Button
+
+2023-02-21 12:30:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_akun/btn_masuk"), 2): Element 'Object Repository/Page_akun/btn_masuk' is present
+
+2023-02-21 12:30:01 - [MESSAGE][PASSED] - Element 'Object Repository/Page_akun/btn_masuk' is present
+
+2023-02-21 12:30:01 - [TEST_STEP][PASSED] - tap(findTestObject("Page_akun/btn_masuk"), 2): Tapped on element 'Object Repository/Page_akun/btn_masuk'
+
+2023-02-21 12:30:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_akun/btn_masuk'
+
+2023-02-21 12:30:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_akun/Click Masuk Button' successfully
+
+2023-02-21 12:30:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_login/Input Email"), ["email":email], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_login/Input Email' successfully
+
+2023-02-21 12:30:01 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_login/Input Email: Test Cases/Pages/Page_login/Input Email
+
+2023-02-21 12:30:01 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_login/textfield_email"), 3): Element 'Object Repository/Page_login/textfield_email' text is cleared
+
+2023-02-21 12:30:02 - [MESSAGE][PASSED] - Element 'Object Repository/Page_login/textfield_email' text is cleared
+
+2023-02-21 12:30:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_login/textfield_email"), email, 0): Text 'd.erprion@gmail.com' has been set to element 'Object Repository/Page_login/textfield_email'
+
+2023-02-21 12:30:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:30:04 - [MESSAGE][PASSED] - Text 'd.erprion@gmail.com' has been set to element 'Object Repository/Page_login/textfield_email'
+
+2023-02-21 12:30:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_login/Input Email' successfully
+
+2023-02-21 12:30:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_login/Input Password"), ["password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_login/Input Password' successfully
+
+2023-02-21 12:30:04 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_login/Input Password: Test Cases/Pages/Page_login/Input Password
+
+2023-02-21 12:30:04 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_login/textfield_password"), 3): Element 'Object Repository/Page_login/textfield_password' text is cleared
+
+2023-02-21 12:30:05 - [MESSAGE][PASSED] - Element 'Object Repository/Page_login/textfield_password' text is cleared
+
+2023-02-21 12:30:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_login/textfield_password"), password, 0): Text 'qwerty1234' has been set to element 'Object Repository/Page_login/textfield_password'
+
+2023-02-21 12:30:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:30:06 - [MESSAGE][PASSED] - Text 'qwerty1234' has been set to element 'Object Repository/Page_login/textfield_password'
+
+2023-02-21 12:30:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_login/Input Password' successfully
+
+2023-02-21 12:30:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_login/Click Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_login/Click Masuk' successfully
+
+2023-02-21 12:30:06 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_login/Click Masuk: Test Cases/Pages/Page_login/Click Masuk
+
+2023-02-21 12:30:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_login/btn_login"), 2): Element 'Object Repository/Page_login/btn_login' is present
+
+2023-02-21 12:30:07 - [MESSAGE][PASSED] - Element 'Object Repository/Page_login/btn_login' is present
+
+2023-02-21 12:30:07 - [TEST_STEP][PASSED] - tap(findTestObject("Page_login/btn_login"), 2): Tapped on element 'Object Repository/Page_login/btn_login'
+
+2023-02-21 12:30:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_login/btn_login'
+
+2023-02-21 12:30:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_login/Click Masuk' successfully
+
+2023-02-21 12:30:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_home/Navigate to Tambah Produk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_home/Navigate to Tambah Produk' successfully
+
+2023-02-21 12:30:09 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_home/Navigate to Tambah Produk: Test Cases/Pages/Page_home/Navigate to Tambah Produk
+
+2023-02-21 12:30:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_home/nav_tambah_produk"), 2): Element 'Object Repository/Page_home/nav_tambah_produk' is present
+
+2023-02-21 12:30:09 - [MESSAGE][PASSED] - Element 'Object Repository/Page_home/nav_tambah_produk' is present
+
+2023-02-21 12:30:09 - [TEST_STEP][PASSED] - tap(findTestObject("Page_home/nav_tambah_produk"), 2): Tapped on element 'Object Repository/Page_home/nav_tambah_produk'
+
+2023-02-21 12:30:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_home/nav_tambah_produk'
+
+2023-02-21 12:30:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_home/Navigate to Tambah Produk' successfully
+
+2023-02-21 12:30:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/verify element tambah produk present"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/verify element tambah produk present' successfully
+
+2023-02-21 12:30:10 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/verify element tambah produk present: Test Cases/Pages/Page_tambah_produk/verify element tambah produk present
+
+2023-02-21 12:30:11 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/title_Tambah_Produk"), 3): Element 'Object Repository/Page_tambah_produk/title_Tambah_Produk' is exist
+
+2023-02-21 12:30:11 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/title_Tambah_Produk' is exist
+
+2023-02-21 12:30:11 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/btn_cancel_add_product"), 3): Element 'Object Repository/Page_tambah_produk/btn_cancel_add_product' is exist
+
+2023-02-21 12:30:11 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/btn_cancel_add_product' is exist
+
+2023-02-21 12:30:11 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/input_product_name"), 3): Element 'Object Repository/Page_tambah_produk/input_product_name' is exist
+
+2023-02-21 12:30:11 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_product_name' is exist
+
+2023-02-21 12:30:11 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/input_product_price"), 3): Element 'Object Repository/Page_tambah_produk/input_product_price' is exist
+
+2023-02-21 12:30:12 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_product_price' is exist
+
+2023-02-21 12:30:12 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/input_category"), 3): Element 'Object Repository/Page_tambah_produk/input_category' is exist
+
+2023-02-21 12:30:12 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_category' is exist
+
+2023-02-21 12:30:12 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/input_location"), 3): Element 'Object Repository/Page_tambah_produk/input_location' is exist
+
+2023-02-21 12:30:12 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_location' is exist
+
+2023-02-21 12:30:12 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/input_description"), 3): Element 'Object Repository/Page_tambah_produk/input_description' is exist
+
+2023-02-21 12:30:12 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_description' is exist
+
+2023-02-21 12:30:12 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/upload_product_photo"), 3): Element 'Object Repository/Page_tambah_produk/upload_product_photo' is exist
+
+2023-02-21 12:30:13 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/upload_product_photo' is exist
+
+2023-02-21 12:30:13 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/btn_preview"), 2): Element 'Object Repository/Page_tambah_produk/btn_preview' is exist
+
+2023-02-21 12:30:13 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/btn_preview' is exist
+
+2023-02-21 12:30:13 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/btn_terbitkan"), 2, STOP_ON_FAILURE): Element 'Object Repository/Page_tambah_produk/btn_terbitkan' is exist
+
+2023-02-21 12:30:13 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/btn_terbitkan' is exist
+
+2023-02-21 12:30:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/verify element tambah produk present' successfully
+
+2023-02-21 12:30:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/Input product name"), ["product_name":product_name], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/Input product name' successfully
+
+2023-02-21 12:30:13 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/Input product name: Test Cases/Pages/Page_tambah_produk/Input product name
+
+2023-02-21 12:30:14 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_tambah_produk/input_product_name"), 2): Element 'Object Repository/Page_tambah_produk/input_product_name' text is cleared
+
+2023-02-21 12:30:14 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_product_name' text is cleared
+
+2023-02-21 12:30:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_tambah_produk/input_product_name"), product_name, 0): Text 'HomepageProduct' has been set to element 'Object Repository/Page_tambah_produk/input_product_name'
+
+2023-02-21 12:30:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:30:16 - [MESSAGE][PASSED] - Text 'HomepageProduct' has been set to element 'Object Repository/Page_tambah_produk/input_product_name'
+
+2023-02-21 12:30:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/Input product name' successfully
+
+2023-02-21 12:30:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/Input product price"), ["product_price":product_price], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/Input product price' successfully
+
+2023-02-21 12:30:16 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/Input product price: Test Cases/Pages/Page_tambah_produk/Input product price
+
+2023-02-21 12:30:16 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_tambah_produk/input_product_price"), 2): Element 'Object Repository/Page_tambah_produk/input_product_price' text is cleared
+
+2023-02-21 12:30:17 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_product_price' text is cleared
+
+2023-02-21 12:30:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_tambah_produk/input_product_price"), product_price, 0): Text '141414' has been set to element 'Object Repository/Page_tambah_produk/input_product_price'
+
+2023-02-21 12:30:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:30:18 - [MESSAGE][PASSED] - Text '141414' has been set to element 'Object Repository/Page_tambah_produk/input_product_price'
+
+2023-02-21 12:30:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/Input product price' successfully
+
+2023-02-21 12:30:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/Input location"), ["location":location], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/Input location' successfully
+
+2023-02-21 12:30:18 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/Input location: Test Cases/Pages/Page_tambah_produk/Input location
+
+2023-02-21 12:30:18 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_tambah_produk/input_location"), 1): Element 'Object Repository/Page_tambah_produk/input_location' text is cleared
+
+2023-02-21 12:30:19 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_location' text is cleared
+
+2023-02-21 12:30:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_tambah_produk/input_location"), location, 0): Text 'Tangerang' has been set to element 'Object Repository/Page_tambah_produk/input_location'
+
+2023-02-21 12:30:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:30:20 - [MESSAGE][PASSED] - Text 'Tangerang' has been set to element 'Object Repository/Page_tambah_produk/input_location'
+
+2023-02-21 12:30:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/Input location' successfully
+
+2023-02-21 12:30:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/Input Description"), ["product_description":product_description], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/Input Description' successfully
+
+2023-02-21 12:30:20 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/Input Description: Test Cases/Pages/Page_tambah_produk/Input Description
+
+2023-02-21 12:30:20 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_tambah_produk/input_description"), 1): Element 'Object Repository/Page_tambah_produk/input_description' text is cleared
+
+2023-02-21 12:30:21 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_description' text is cleared
+
+2023-02-21 12:30:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_tambah_produk/input_description"), product_description, 0): Text 'hanya untuk testing deskripsi saja' has been set to element 'Object Repository/Page_tambah_produk/input_description'
+
+2023-02-21 12:30:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:30:23 - [MESSAGE][PASSED] - Text 'hanya untuk testing deskripsi saja' has been set to element 'Object Repository/Page_tambah_produk/input_description'
+
+2023-02-21 12:30:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/Input Description' successfully
+
+2023-02-21 12:30:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/Choose Category"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/Choose Category' successfully
+
+2023-02-21 12:30:23 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/Choose Category: Test Cases/Pages/Page_tambah_produk/Choose Category
+
+2023-02-21 12:30:23 - [TEST_STEP][PASSED] - tap(findTestObject("Page_tambah_produk/input_category"), 2): Tapped on element 'Object Repository/Page_tambah_produk/input_category'
+
+2023-02-21 12:30:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_tambah_produk/input_category'
+
+2023-02-21 12:30:23 - [TEST_STEP][PASSED] - tap(findTestObject("Page_tambah_produk/choose elektronik"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Page_tambah_produk/choose elektronik'
+
+2023-02-21 12:30:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:30:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_tambah_produk/choose elektronik'
+
+2023-02-21 12:30:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/Choose Category' successfully
+
+2023-02-21 12:30:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/upload photo"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/upload photo' successfully
+
+2023-02-21 12:30:25 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/upload photo: Test Cases/Pages/Page_tambah_produk/upload photo
+
+2023-02-21 12:30:25 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-02-21 12:30:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-21 12:30:28 - [TEST_STEP][PASSED] - tap(findTestObject("Page_tambah_produk/upload_product_photo"), 3): Tapped on element 'Object Repository/Page_tambah_produk/upload_product_photo'
+
+2023-02-21 12:30:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_tambah_produk/upload_product_photo'
+
+2023-02-21 12:30:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_tambah_produk/btn_galeri"), 3): Element 'Object Repository/Page_tambah_produk/btn_galeri' is present
+
+2023-02-21 12:30:30 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/btn_galeri' is present
+
+2023-02-21 12:30:30 - [TEST_STEP][PASSED] - tap(findTestObject("Page_tambah_produk/btn_galeri"), 3): Tapped on element 'Object Repository/Page_tambah_produk/btn_galeri'
+
+2023-02-21 12:30:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_tambah_produk/btn_galeri'
+
+2023-02-21 12:30:30 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-02-21 12:30:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-02-21 12:30:35 - [TEST_STEP][PASSED] - tap(findTestObject("Page_tambah_produk/choose_photo"), 3): Tapped on element 'Object Repository/Page_tambah_produk/choose_photo'
+
+2023-02-21 12:30:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_tambah_produk/choose_photo'
+
+2023-02-21 12:30:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/upload photo' successfully
+
+2023-02-21 12:30:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/Click Terbitkan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/Click Terbitkan' successfully
+
+2023-02-21 12:30:36 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/Click Terbitkan: Test Cases/Pages/Page_tambah_produk/Click Terbitkan
+
+2023-02-21 12:30:36 - [TEST_STEP][PASSED] - tap(findTestObject("Page_tambah_produk/btn_terbitkan"), 3): Tapped on element 'Object Repository/Page_tambah_produk/btn_terbitkan'
+
+2023-02-21 12:30:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_tambah_produk/btn_terbitkan'
+
+2023-02-21 12:30:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/Click Terbitkan' successfully
+
+2023-02-21 12:30:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_daftarjual/Verify Add Product Success"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_daftarjual/Verify Add Product Success' successfully
+
+2023-02-21 12:30:38 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_daftarjual/Verify Add Product Success: Test Cases/Pages/Page_daftarjual/Verify Add Product Success
+
+2023-02-21 12:30:38 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-02-21 12:30:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-02-21 12:30:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_daftarjual/img_product"), 3): Element 'Object Repository/Page_daftarjual/img_product' is visible
+
+2023-02-21 12:30:44 - [MESSAGE][PASSED] - Element 'Object Repository/Page_daftarjual/img_product' is visible
+
+2023-02-21 12:30:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_daftarjual/txt_product_name"), 3): Element 'Object Repository/Page_daftarjual/txt_product_name' is visible
+
+2023-02-21 12:30:44 - [MESSAGE][PASSED] - Element 'Object Repository/Page_daftarjual/txt_product_name' is visible
+
+2023-02-21 12:30:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_daftarjual/txt_product_category"), 3): Element 'Object Repository/Page_daftarjual/txt_product_category' is visible
+
+2023-02-21 12:30:45 - [MESSAGE][PASSED] - Element 'Object Repository/Page_daftarjual/txt_product_category' is visible
+
+2023-02-21 12:30:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_daftarjual/txt_product_price"), 3): Element 'Object Repository/Page_daftarjual/txt_product_price' is visible
+
+2023-02-21 12:30:45 - [MESSAGE][PASSED] - Element 'Object Repository/Page_daftarjual/txt_product_price' is visible
+
+2023-02-21 12:30:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_daftarjual/Verify Add Product Success' successfully
+
+2023-02-21 12:30:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_daftarjual/Back To Akun Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_daftarjual/Back To Akun Menu' successfully
+
+2023-02-21 12:30:45 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_daftarjual/Back To Akun Menu: Test Cases/Pages/Page_daftarjual/Back To Akun Menu
+
+2023-02-21 12:30:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_daftarjual/btn_back_daftarjual_to_menu_Akun"), 3): Element 'Object Repository/Page_daftarjual/btn_back_daftarjual_to_menu_Akun' is present
+
+2023-02-21 12:30:46 - [MESSAGE][PASSED] - Element 'Object Repository/Page_daftarjual/btn_back_daftarjual_to_menu_Akun' is present
+
+2023-02-21 12:30:46 - [TEST_STEP][PASSED] - tap(findTestObject("Page_daftarjual/btn_back_daftarjual_to_menu_Akun"), 3): Tapped on element 'Object Repository/Page_daftarjual/btn_back_daftarjual_to_menu_Akun'
+
+2023-02-21 12:30:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_daftarjual/btn_back_daftarjual_to_menu_Akun'
+
+2023-02-21 12:30:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_daftarjual/Back To Akun Menu' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Add Product/ADP002 - Preview Product" time="33.228" classname="Test Cases/Step Definition/Feature Add Product/ADP002 - Preview Product" status="PASSED">
+         <system-out><![CDATA[2023-02-21 12:30:46 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Add Product/ADP002 - Preview Product: Test Cases/Step Definition/Feature Add Product/ADP002 - Preview Product
+
+2023-02-21 12:30:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_home/Navigate to Tambah Produk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_home/Navigate to Tambah Produk' successfully
+
+2023-02-21 12:30:46 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_home/Navigate to Tambah Produk: Test Cases/Pages/Page_home/Navigate to Tambah Produk
+
+2023-02-21 12:30:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_home/nav_tambah_produk"), 2): Element 'Object Repository/Page_home/nav_tambah_produk' is present
+
+2023-02-21 12:30:47 - [MESSAGE][PASSED] - Element 'Object Repository/Page_home/nav_tambah_produk' is present
+
+2023-02-21 12:30:47 - [TEST_STEP][PASSED] - tap(findTestObject("Page_home/nav_tambah_produk"), 2): Tapped on element 'Object Repository/Page_home/nav_tambah_produk'
+
+2023-02-21 12:30:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_home/nav_tambah_produk'
+
+2023-02-21 12:30:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_home/Navigate to Tambah Produk' successfully
+
+2023-02-21 12:30:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/verify element tambah produk present"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/verify element tambah produk present' successfully
+
+2023-02-21 12:30:48 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/verify element tambah produk present: Test Cases/Pages/Page_tambah_produk/verify element tambah produk present
+
+2023-02-21 12:30:48 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/title_Tambah_Produk"), 3): Element 'Object Repository/Page_tambah_produk/title_Tambah_Produk' is exist
+
+2023-02-21 12:30:48 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/title_Tambah_Produk' is exist
+
+2023-02-21 12:30:48 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/btn_cancel_add_product"), 3): Element 'Object Repository/Page_tambah_produk/btn_cancel_add_product' is exist
+
+2023-02-21 12:30:49 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/btn_cancel_add_product' is exist
+
+2023-02-21 12:30:49 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/input_product_name"), 3): Element 'Object Repository/Page_tambah_produk/input_product_name' is exist
+
+2023-02-21 12:30:49 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_product_name' is exist
+
+2023-02-21 12:30:49 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/input_product_price"), 3): Element 'Object Repository/Page_tambah_produk/input_product_price' is exist
+
+2023-02-21 12:30:49 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_product_price' is exist
+
+2023-02-21 12:30:49 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/input_category"), 3): Element 'Object Repository/Page_tambah_produk/input_category' is exist
+
+2023-02-21 12:30:49 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_category' is exist
+
+2023-02-21 12:30:49 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/input_location"), 3): Element 'Object Repository/Page_tambah_produk/input_location' is exist
+
+2023-02-21 12:30:50 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_location' is exist
+
+2023-02-21 12:30:50 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/input_description"), 3): Element 'Object Repository/Page_tambah_produk/input_description' is exist
+
+2023-02-21 12:30:50 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_description' is exist
+
+2023-02-21 12:30:50 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/upload_product_photo"), 3): Element 'Object Repository/Page_tambah_produk/upload_product_photo' is exist
+
+2023-02-21 12:30:50 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/upload_product_photo' is exist
+
+2023-02-21 12:30:50 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/btn_preview"), 2): Element 'Object Repository/Page_tambah_produk/btn_preview' is exist
+
+2023-02-21 12:30:50 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/btn_preview' is exist
+
+2023-02-21 12:30:50 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/btn_terbitkan"), 2, STOP_ON_FAILURE): Element 'Object Repository/Page_tambah_produk/btn_terbitkan' is exist
+
+2023-02-21 12:30:51 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/btn_terbitkan' is exist
+
+2023-02-21 12:30:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/verify element tambah produk present' successfully
+
+2023-02-21 12:30:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/Input product name"), ["product_name":product_name], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/Input product name' successfully
+
+2023-02-21 12:30:51 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/Input product name: Test Cases/Pages/Page_tambah_produk/Input product name
+
+2023-02-21 12:30:51 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_tambah_produk/input_product_name"), 2): Element 'Object Repository/Page_tambah_produk/input_product_name' text is cleared
+
+2023-02-21 12:30:51 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_product_name' text is cleared
+
+2023-02-21 12:30:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_tambah_produk/input_product_name"), product_name, 0): Text 'previewProduct' has been set to element 'Object Repository/Page_tambah_produk/input_product_name'
+
+2023-02-21 12:30:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:30:53 - [MESSAGE][PASSED] - Text 'previewProduct' has been set to element 'Object Repository/Page_tambah_produk/input_product_name'
+
+2023-02-21 12:30:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/Input product name' successfully
+
+2023-02-21 12:30:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/Input product price"), ["product_price":product_price], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/Input product price' successfully
+
+2023-02-21 12:30:53 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/Input product price: Test Cases/Pages/Page_tambah_produk/Input product price
+
+2023-02-21 12:30:53 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_tambah_produk/input_product_price"), 2): Element 'Object Repository/Page_tambah_produk/input_product_price' text is cleared
+
+2023-02-21 12:30:54 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_product_price' text is cleared
+
+2023-02-21 12:30:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_tambah_produk/input_product_price"), product_price, 0): Text '131313' has been set to element 'Object Repository/Page_tambah_produk/input_product_price'
+
+2023-02-21 12:30:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:30:55 - [MESSAGE][PASSED] - Text '131313' has been set to element 'Object Repository/Page_tambah_produk/input_product_price'
+
+2023-02-21 12:30:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/Input product price' successfully
+
+2023-02-21 12:30:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/Input location"), ["location":location], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/Input location' successfully
+
+2023-02-21 12:30:55 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/Input location: Test Cases/Pages/Page_tambah_produk/Input location
+
+2023-02-21 12:30:55 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_tambah_produk/input_location"), 1): Element 'Object Repository/Page_tambah_produk/input_location' text is cleared
+
+2023-02-21 12:30:56 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_location' text is cleared
+
+2023-02-21 12:30:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_tambah_produk/input_location"), location, 0): Text 'Tangerang' has been set to element 'Object Repository/Page_tambah_produk/input_location'
+
+2023-02-21 12:30:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:30:57 - [MESSAGE][PASSED] - Text 'Tangerang' has been set to element 'Object Repository/Page_tambah_produk/input_location'
+
+2023-02-21 12:30:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/Input location' successfully
+
+2023-02-21 12:30:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/Input Description"), ["product_description":product_description], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/Input Description' successfully
+
+2023-02-21 12:30:57 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/Input Description: Test Cases/Pages/Page_tambah_produk/Input Description
+
+2023-02-21 12:30:57 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_tambah_produk/input_description"), 1): Element 'Object Repository/Page_tambah_produk/input_description' text is cleared
+
+2023-02-21 12:30:58 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_description' text is cleared
+
+2023-02-21 12:30:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_tambah_produk/input_description"), product_description, 0): Text 'ini adalah contoh deskripsi previewProduct' has been set to element 'Object Repository/Page_tambah_produk/input_description'
+
+2023-02-21 12:30:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:31:00 - [MESSAGE][PASSED] - Text 'ini adalah contoh deskripsi previewProduct' has been set to element 'Object Repository/Page_tambah_produk/input_description'
+
+2023-02-21 12:31:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/Input Description' successfully
+
+2023-02-21 12:31:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/Choose Category"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/Choose Category' successfully
+
+2023-02-21 12:31:00 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/Choose Category: Test Cases/Pages/Page_tambah_produk/Choose Category
+
+2023-02-21 12:31:00 - [TEST_STEP][PASSED] - tap(findTestObject("Page_tambah_produk/input_category"), 2): Tapped on element 'Object Repository/Page_tambah_produk/input_category'
+
+2023-02-21 12:31:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_tambah_produk/input_category'
+
+2023-02-21 12:31:01 - [TEST_STEP][PASSED] - tap(findTestObject("Page_tambah_produk/choose elektronik"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Page_tambah_produk/choose elektronik'
+
+2023-02-21 12:31:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:31:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_tambah_produk/choose elektronik'
+
+2023-02-21 12:31:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/Choose Category' successfully
+
+2023-02-21 12:31:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/upload photo"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/upload photo' successfully
+
+2023-02-21 12:31:03 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/upload photo: Test Cases/Pages/Page_tambah_produk/upload photo
+
+2023-02-21 12:31:03 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-02-21 12:31:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-21 12:31:06 - [TEST_STEP][PASSED] - tap(findTestObject("Page_tambah_produk/upload_product_photo"), 3): Tapped on element 'Object Repository/Page_tambah_produk/upload_product_photo'
+
+2023-02-21 12:31:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_tambah_produk/upload_product_photo'
+
+2023-02-21 12:31:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_tambah_produk/btn_galeri"), 3): Element 'Object Repository/Page_tambah_produk/btn_galeri' is present
+
+2023-02-21 12:31:07 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/btn_galeri' is present
+
+2023-02-21 12:31:07 - [TEST_STEP][PASSED] - tap(findTestObject("Page_tambah_produk/btn_galeri"), 3): Tapped on element 'Object Repository/Page_tambah_produk/btn_galeri'
+
+2023-02-21 12:31:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_tambah_produk/btn_galeri'
+
+2023-02-21 12:31:07 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-02-21 12:31:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-02-21 12:31:12 - [TEST_STEP][PASSED] - tap(findTestObject("Page_tambah_produk/choose_photo"), 3): Tapped on element 'Object Repository/Page_tambah_produk/choose_photo'
+
+2023-02-21 12:31:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_tambah_produk/choose_photo'
+
+2023-02-21 12:31:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/upload photo' successfully
+
+2023-02-21 12:31:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/Click Preview"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/Click Preview' successfully
+
+2023-02-21 12:31:13 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/Click Preview: Test Cases/Pages/Page_tambah_produk/Click Preview
+
+2023-02-21 12:31:13 - [TEST_STEP][PASSED] - tap(findTestObject("Page_tambah_produk/btn_preview"), 0): Tapped on element 'Object Repository/Page_tambah_produk/btn_preview'
+
+2023-02-21 12:31:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:31:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_tambah_produk/btn_preview'
+
+2023-02-21 12:31:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/Click Preview' successfully
+
+2023-02-21 12:31:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tinjau_produk/Verify Preview Product Success"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tinjau_produk/Verify Preview Product Success' successfully
+
+2023-02-21 12:31:14 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tinjau_produk/Verify Preview Product Success: Test Cases/Pages/Page_tinjau_produk/Verify Preview Product Success
+
+2023-02-21 12:31:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_tinjau_produk/title_tinjau_produk"), 3): Element 'Object Repository/Page_tinjau_produk/title_tinjau_produk' is visible
+
+2023-02-21 12:31:15 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tinjau_produk/title_tinjau_produk' is visible
+
+2023-02-21 12:31:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_tinjau_produk/img_product"), 3): Element 'Object Repository/Page_tinjau_produk/img_product' is visible
+
+2023-02-21 12:31:16 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tinjau_produk/img_product' is visible
+
+2023-02-21 12:31:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_tinjau_produk/txt_product_name"), 3): Element 'Object Repository/Page_tinjau_produk/txt_product_name' is visible
+
+2023-02-21 12:31:16 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tinjau_produk/txt_product_name' is visible
+
+2023-02-21 12:31:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_tinjau_produk/txt_product_price"), 3): Element 'Object Repository/Page_tinjau_produk/txt_product_price' is visible
+
+2023-02-21 12:31:16 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tinjau_produk/txt_product_price' is visible
+
+2023-02-21 12:31:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_tinjau_produk/txt_seller_name"), 3): Element 'Object Repository/Page_tinjau_produk/txt_seller_name' is visible
+
+2023-02-21 12:31:16 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tinjau_produk/txt_seller_name' is visible
+
+2023-02-21 12:31:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_tinjau_produk/txt_seller_location"), 3): Element 'Object Repository/Page_tinjau_produk/txt_seller_location' is visible
+
+2023-02-21 12:31:17 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tinjau_produk/txt_seller_location' is visible
+
+2023-02-21 12:31:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_tinjau_produk/txt_product_category"), 3): Element 'Object Repository/Page_tinjau_produk/txt_product_category' is visible
+
+2023-02-21 12:31:17 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tinjau_produk/txt_product_category' is visible
+
+2023-02-21 12:31:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_tinjau_produk/txt_product_description"), 3): Element 'Object Repository/Page_tinjau_produk/txt_product_description' is visible
+
+2023-02-21 12:31:17 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tinjau_produk/txt_product_description' is visible
+
+2023-02-21 12:31:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_tinjau_produk/btn_back"), 3): Element 'Object Repository/Page_tinjau_produk/btn_back' is visible
+
+2023-02-21 12:31:18 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tinjau_produk/btn_back' is visible
+
+2023-02-21 12:31:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tinjau_produk/Verify Preview Product Success' successfully
+
+2023-02-21 12:31:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tinjau_produk/Back to Page Tambah Produk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tinjau_produk/Back to Page Tambah Produk' successfully
+
+2023-02-21 12:31:18 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tinjau_produk/Back to Page Tambah Produk: Test Cases/Pages/Page_tinjau_produk/Back to Page Tambah Produk
+
+2023-02-21 12:31:18 - [TEST_STEP][PASSED] - tap(findTestObject("Page_tinjau_produk/btn_back"), 3): Tapped on element 'Object Repository/Page_tinjau_produk/btn_back'
+
+2023-02-21 12:31:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_tinjau_produk/btn_back'
+
+2023-02-21 12:31:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tinjau_produk/Back to Page Tambah Produk' successfully
+
+2023-02-21 12:31:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/Cancel Add Product"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/Cancel Add Product' successfully
+
+2023-02-21 12:31:18 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/Cancel Add Product: Test Cases/Pages/Page_tambah_produk/Cancel Add Product
+
+2023-02-21 12:31:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_tambah_produk/btn_cancel_add_product"), 3): Element 'Object Repository/Page_tambah_produk/btn_cancel_add_product' is present
+
+2023-02-21 12:31:19 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/btn_cancel_add_product' is present
+
+2023-02-21 12:31:19 - [TEST_STEP][PASSED] - tap(findTestObject("Page_tambah_produk/btn_cancel_add_product"), 3): Tapped on element 'Object Repository/Page_tambah_produk/btn_cancel_add_product'
+
+2023-02-21 12:31:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_tambah_produk/btn_cancel_add_product'
+
+2023-02-21 12:31:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/Cancel Add Product' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Add Product/ADP003 - Cancel Add Product" time="14.588" classname="Test Cases/Step Definition/Feature Add Product/ADP003 - Cancel Add Product" status="PASSED">
+         <system-out><![CDATA[2023-02-21 12:31:19 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Add Product/ADP003 - Cancel Add Product: Test Cases/Step Definition/Feature Add Product/ADP003 - Cancel Add Product
+
+2023-02-21 12:31:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_home/Navigate to Tambah Produk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_home/Navigate to Tambah Produk' successfully
+
+2023-02-21 12:31:20 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_home/Navigate to Tambah Produk: Test Cases/Pages/Page_home/Navigate to Tambah Produk
+
+2023-02-21 12:31:20 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_home/nav_tambah_produk"), 2): Element 'Object Repository/Page_home/nav_tambah_produk' is present
+
+2023-02-21 12:31:20 - [MESSAGE][PASSED] - Element 'Object Repository/Page_home/nav_tambah_produk' is present
+
+2023-02-21 12:31:20 - [TEST_STEP][PASSED] - tap(findTestObject("Page_home/nav_tambah_produk"), 2): Tapped on element 'Object Repository/Page_home/nav_tambah_produk'
+
+2023-02-21 12:31:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_home/nav_tambah_produk'
+
+2023-02-21 12:31:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_home/Navigate to Tambah Produk' successfully
+
+2023-02-21 12:31:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/verify element tambah produk present"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/verify element tambah produk present' successfully
+
+2023-02-21 12:31:21 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/verify element tambah produk present: Test Cases/Pages/Page_tambah_produk/verify element tambah produk present
+
+2023-02-21 12:31:21 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/title_Tambah_Produk"), 3): Element 'Object Repository/Page_tambah_produk/title_Tambah_Produk' is exist
+
+2023-02-21 12:31:22 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/title_Tambah_Produk' is exist
+
+2023-02-21 12:31:22 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/btn_cancel_add_product"), 3): Element 'Object Repository/Page_tambah_produk/btn_cancel_add_product' is exist
+
+2023-02-21 12:31:22 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/btn_cancel_add_product' is exist
+
+2023-02-21 12:31:22 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/input_product_name"), 3): Element 'Object Repository/Page_tambah_produk/input_product_name' is exist
+
+2023-02-21 12:31:22 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_product_name' is exist
+
+2023-02-21 12:31:22 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/input_product_price"), 3): Element 'Object Repository/Page_tambah_produk/input_product_price' is exist
+
+2023-02-21 12:31:22 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_product_price' is exist
+
+2023-02-21 12:31:22 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/input_category"), 3): Element 'Object Repository/Page_tambah_produk/input_category' is exist
+
+2023-02-21 12:31:22 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_category' is exist
+
+2023-02-21 12:31:22 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/input_location"), 3): Element 'Object Repository/Page_tambah_produk/input_location' is exist
+
+2023-02-21 12:31:23 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_location' is exist
+
+2023-02-21 12:31:23 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/input_description"), 3): Element 'Object Repository/Page_tambah_produk/input_description' is exist
+
+2023-02-21 12:31:23 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/input_description' is exist
+
+2023-02-21 12:31:23 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/upload_product_photo"), 3): Element 'Object Repository/Page_tambah_produk/upload_product_photo' is exist
+
+2023-02-21 12:31:23 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/upload_product_photo' is exist
+
+2023-02-21 12:31:23 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/btn_preview"), 2): Element 'Object Repository/Page_tambah_produk/btn_preview' is exist
+
+2023-02-21 12:31:23 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/btn_preview' is exist
+
+2023-02-21 12:31:23 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Page_tambah_produk/btn_terbitkan"), 2, STOP_ON_FAILURE): Element 'Object Repository/Page_tambah_produk/btn_terbitkan' is exist
+
+2023-02-21 12:31:24 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/btn_terbitkan' is exist
+
+2023-02-21 12:31:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/verify element tambah produk present' successfully
+
+2023-02-21 12:31:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_tambah_produk/Cancel Add Product"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_tambah_produk/Cancel Add Product' successfully
+
+2023-02-21 12:31:24 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_tambah_produk/Cancel Add Product: Test Cases/Pages/Page_tambah_produk/Cancel Add Product
+
+2023-02-21 12:31:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_tambah_produk/btn_cancel_add_product"), 3): Element 'Object Repository/Page_tambah_produk/btn_cancel_add_product' is present
+
+2023-02-21 12:31:24 - [MESSAGE][PASSED] - Element 'Object Repository/Page_tambah_produk/btn_cancel_add_product' is present
+
+2023-02-21 12:31:24 - [TEST_STEP][PASSED] - tap(findTestObject("Page_tambah_produk/btn_cancel_add_product"), 3): Tapped on element 'Object Repository/Page_tambah_produk/btn_cancel_add_product'
+
+2023-02-21 12:31:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_tambah_produk/btn_cancel_add_product'
+
+2023-02-21 12:31:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_tambah_produk/Cancel Add Product' successfully
+
+2023-02-21 12:31:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_akun/Log Out Account"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_akun/Log Out Account' successfully
+
+2023-02-21 12:31:25 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_akun/Log Out Account: Test Cases/Pages/Page_akun/Log Out Account
+
+2023-02-21 12:31:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_home/Navigate to Menu Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_home/Navigate to Menu Akun' successfully
+
+2023-02-21 12:31:26 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_home/Navigate to Menu Akun: Test Cases/Pages/Page_home/Navigate to Menu Akun
+
+2023-02-21 12:31:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_home/nav_menu_akun"), 2): Element 'Object Repository/Page_home/nav_menu_akun' is present
+
+2023-02-21 12:31:28 - [MESSAGE][PASSED] - Element 'Object Repository/Page_home/nav_menu_akun' is present
+
+2023-02-21 12:31:28 - [TEST_STEP][PASSED] - tap(findTestObject("Page_home/nav_menu_akun"), 2): Tapped on element 'Object Repository/Page_home/nav_menu_akun'
+
+2023-02-21 12:31:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_home/nav_menu_akun'
+
+2023-02-21 12:31:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_home/Navigate to Menu Akun' successfully
+
+2023-02-21 12:31:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_home/Click button log out"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_home/Click button log out' successfully
+
+2023-02-21 12:31:31 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_home/Click button log out: Test Cases/Pages/Page_home/Click button log out
+
+2023-02-21 12:31:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_home/btn_keluar"), 2): Element 'Object Repository/Page_home/btn_keluar' is visible
+
+2023-02-21 12:31:32 - [MESSAGE][PASSED] - Element 'Object Repository/Page_home/btn_keluar' is visible
+
+2023-02-21 12:31:32 - [TEST_STEP][PASSED] - checkElement(findTestObject("Page_home/btn_keluar"), 2): Element 'Object Repository/Page_home/btn_keluar' is checked
+
+2023-02-21 12:31:34 - [MESSAGE][PASSED] - Element 'Object Repository/Page_home/btn_keluar' is checked
+
+2023-02-21 12:31:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_home/Click button log out' successfully
+
+2023-02-21 12:31:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_akun/Log Out Account' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-21 12:29:43 - [TEST_SUITE][PASSED] - Feature Add Product: Test Cases/Step Definition/Feature Add Product/ADP003 - Cancel Add Product]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

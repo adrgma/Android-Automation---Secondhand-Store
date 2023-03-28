@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Notifikasi" time="36.68" tests="1" failures="0" errors="0">
+   <testsuite name="Feature Notifikasi" tests="1" failures="0" errors="0" time="36.68" skipped="0" timestamp="2023-02-21 12:23:40" hostname="ADITIA ARGA PRATAMA - LAPTOP-L0K8P5OF" id="Test Suites/Feature Notifikasi">
+      <properties>
+         <property name="deviceName" value="samsung SM-A525F (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\android-automation-testing-kelompok-1.git\\Reports\\20230221_120605\\Feature Notifikasi\\20230221_120617"/>
+         <property name="logFiles" value="D:\\android-automation-testing-kelompok-1.git\\Reports\\20230221_120605\\Feature Notifikasi\\20230221_120617\\appium.log, D:\\android-automation-testing-kelompok-1.git\\Reports\\20230221_120605\\Feature Notifikasi\\20230221_120617\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ADITIA ARGA PRATAMA - LAPTOP-L0K8P5OF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A525F"/>
+         <property name="hostAddress" value="192.168.0.139"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8R602SN8Y"/>
+         <property name="deviceName" value="samsung SM-A525F (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/Feature Notifikasi/Not001 - Notifikasi" time="24.616" classname="Test Cases/Step Definition/Feature Notifikasi/Not001 - Notifikasi" status="PASSED">
+         <system-out><![CDATA[2023-02-21 12:23:52 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Notifikasi/Not001 - Notifikasi: Test Cases/Step Definition/Feature Notifikasi/Not001 - Notifikasi
+
+2023-02-21 12:23:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_notifikasi/Login Page Notifikasi"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_notifikasi/Login Page Notifikasi' successfully
+
+2023-02-21 12:23:52 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_notifikasi/Login Page Notifikasi: Test Cases/Pages/Page_notifikasi/Login Page Notifikasi
+
+2023-02-21 12:23:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_home/nav_menu_akun"), 2): Element 'Object Repository/Page_home/nav_menu_akun' is present
+
+2023-02-21 12:23:55 - [MESSAGE][PASSED] - Element 'Object Repository/Page_home/nav_menu_akun' is present
+
+2023-02-21 12:23:55 - [TEST_STEP][PASSED] - tap(findTestObject("Page_notifikasi/btn_notifikasi"), 2): Tapped on element 'Object Repository/Page_notifikasi/btn_notifikasi'
+
+2023-02-21 12:23:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_notifikasi/btn_notifikasi'
+
+2023-02-21 12:23:58 - [TEST_STEP][PASSED] - tap(findTestObject("Page_notifikasi/btn_masuk_notif"), 2): Tapped on element 'Object Repository/Page_notifikasi/btn_masuk_notif'
+
+2023-02-21 12:23:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_notifikasi/btn_masuk_notif'
+
+2023-02-21 12:23:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_notifikasi/Login Page Notifikasi' successfully
+
+2023-02-21 12:23:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_login/Input Email"), ["email":"studentqa3@binar.id"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_login/Input Email' successfully
+
+2023-02-21 12:23:58 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_login/Input Email: Test Cases/Pages/Page_login/Input Email
+
+2023-02-21 12:23:59 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_login/textfield_email"), 3): Element 'Object Repository/Page_login/textfield_email' text is cleared
+
+2023-02-21 12:24:00 - [MESSAGE][PASSED] - Element 'Object Repository/Page_login/textfield_email' text is cleared
+
+2023-02-21 12:24:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_login/textfield_email"), email, 0): Text 'studentqa3@binar.id' has been set to element 'Object Repository/Page_login/textfield_email'
+
+2023-02-21 12:24:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:24:01 - [MESSAGE][PASSED] - Text 'studentqa3@binar.id' has been set to element 'Object Repository/Page_login/textfield_email'
+
+2023-02-21 12:24:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_login/Input Email' successfully
+
+2023-02-21 12:24:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_login/Input Password"), ["password":"studentQA3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_login/Input Password' successfully
+
+2023-02-21 12:24:01 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_login/Input Password: Test Cases/Pages/Page_login/Input Password
+
+2023-02-21 12:24:01 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_login/textfield_password"), 3): Element 'Object Repository/Page_login/textfield_password' text is cleared
+
+2023-02-21 12:24:01 - [MESSAGE][PASSED] - Element 'Object Repository/Page_login/textfield_password' text is cleared
+
+2023-02-21 12:24:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_login/textfield_password"), password, 0): Text 'studentQA3' has been set to element 'Object Repository/Page_login/textfield_password'
+
+2023-02-21 12:24:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:24:03 - [MESSAGE][PASSED] - Text 'studentQA3' has been set to element 'Object Repository/Page_login/textfield_password'
+
+2023-02-21 12:24:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_login/Input Password' successfully
+
+2023-02-21 12:24:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_login/Click Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_login/Click Masuk' successfully
+
+2023-02-21 12:24:03 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_login/Click Masuk: Test Cases/Pages/Page_login/Click Masuk
+
+2023-02-21 12:24:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_login/btn_login"), 2): Element 'Object Repository/Page_login/btn_login' is present
+
+2023-02-21 12:24:04 - [MESSAGE][PASSED] - Element 'Object Repository/Page_login/btn_login' is present
+
+2023-02-21 12:24:04 - [TEST_STEP][PASSED] - tap(findTestObject("Page_login/btn_login"), 2): Tapped on element 'Object Repository/Page_login/btn_login'
+
+2023-02-21 12:24:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_login/btn_login'
+
+2023-02-21 12:24:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_login/Click Masuk' successfully
+
+2023-02-21 12:24:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_notifikasi/List Notif"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_notifikasi/List Notif' successfully
+
+2023-02-21 12:24:06 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_notifikasi/List Notif: Test Cases/Pages/Page_notifikasi/List Notif
+
+2023-02-21 12:24:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_notifikasi/list_notif"), 2): Object Object Repository/Page_notifikasi/list_notif not found
+
+2023-02-21 12:24:08 - [MESSAGE][WARNING] - Object Object Repository/Page_notifikasi/list_notif not found
+
+2023-02-21 12:24:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_notifikasi/List Notif' successfully
+
+2023-02-21 12:24:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_akun/Log Out Account"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_akun/Log Out Account' successfully
+
+2023-02-21 12:24:08 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_akun/Log Out Account: Test Cases/Pages/Page_akun/Log Out Account
+
+2023-02-21 12:24:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_home/Navigate to Menu Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_home/Navigate to Menu Akun' successfully
+
+2023-02-21 12:24:09 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_home/Navigate to Menu Akun: Test Cases/Pages/Page_home/Navigate to Menu Akun
+
+2023-02-21 12:24:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_home/nav_menu_akun"), 2): Element 'Object Repository/Page_home/nav_menu_akun' is present
+
+2023-02-21 12:24:11 - [MESSAGE][PASSED] - Element 'Object Repository/Page_home/nav_menu_akun' is present
+
+2023-02-21 12:24:11 - [TEST_STEP][PASSED] - tap(findTestObject("Page_home/nav_menu_akun"), 2): Tapped on element 'Object Repository/Page_home/nav_menu_akun'
+
+2023-02-21 12:24:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_home/nav_menu_akun'
+
+2023-02-21 12:24:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_home/Navigate to Menu Akun' successfully
+
+2023-02-21 12:24:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_home/Click button log out"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_home/Click button log out' successfully
+
+2023-02-21 12:24:14 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_home/Click button log out: Test Cases/Pages/Page_home/Click button log out
+
+2023-02-21 12:24:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_home/btn_keluar"), 2): Element 'Object Repository/Page_home/btn_keluar' is visible
+
+2023-02-21 12:24:15 - [MESSAGE][PASSED] - Element 'Object Repository/Page_home/btn_keluar' is visible
+
+2023-02-21 12:24:15 - [TEST_STEP][PASSED] - checkElement(findTestObject("Page_home/btn_keluar"), 2): Element 'Object Repository/Page_home/btn_keluar' is checked
+
+2023-02-21 12:24:17 - [MESSAGE][PASSED] - Element 'Object Repository/Page_home/btn_keluar' is checked
+
+2023-02-21 12:24:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_home/Click button log out' successfully
+
+2023-02-21 12:24:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_akun/Log Out Account' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-21 12:23:40 - [TEST_SUITE][PASSED] - Feature Notifikasi: Test Cases/Step Definition/Feature Notifikasi/Not001 - Notifikasi]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

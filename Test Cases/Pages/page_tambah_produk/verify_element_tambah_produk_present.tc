@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_element_tambah_produk_present</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a359076d-08c5-4731-80d2-5c765506a91a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SDPhelper for change status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c575b1f4-083e-46a9-aec5-0b7bb340dc6c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff88a0fe-f6c9-4890-b2f4-e44e7c334b98</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae3ec201-225f-46f1-a86e-6e6c68624962</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>19bf6096-f833-4436-b18f-1a7a7bc1fe0c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'jin.prion@gmail.com'</defaultValue>
+      <description></description>
+      <id>ff88a0fe-f6c9-4890-b2f4-e44e7c334b98</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'qwerty1234'</defaultValue>
+      <description></description>
+      <id>ae3ec201-225f-46f1-a86e-6e6c68624962</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'produkgantistatus'</defaultValue>
+      <description></description>
+      <id>19bf6096-f833-4436-b18f-1a7a7bc1fe0c</id>
+      <masked>false</masked>
+      <name>product_name</name>
+   </variable>
+</TestCaseEntity>

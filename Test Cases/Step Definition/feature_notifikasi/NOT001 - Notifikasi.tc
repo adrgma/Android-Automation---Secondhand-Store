@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NOT001 - Notifikasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27b4ff48-7de9-431a-a6cb-ecceed31f92e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ef3d3294-55db-49c7-86d1-ce9e46d3e425</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>34256373-42e6-48dd-96a0-086bd8410bf5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'studentqa3@binar.id'</defaultValue>
+      <description></description>
+      <id>ef3d3294-55db-49c7-86d1-ce9e46d3e425</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'studentQA3'</defaultValue>
+      <description></description>
+      <id>34256373-42e6-48dd-96a0-086bd8410bf5</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BBPhelper for change status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>078e4e9c-ec6f-4af4-898a-27ec60d2c6e7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8a29a314-1cc2-4e05-964a-4041ba8ec765</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'99998'</defaultValue>
+      <description></description>
+      <id>8a29a314-1cc2-4e05-964a-4041ba8ec765</id>
+      <masked>false</masked>
+      <name>harga_tawar</name>
+   </variable>
+</TestCaseEntity>

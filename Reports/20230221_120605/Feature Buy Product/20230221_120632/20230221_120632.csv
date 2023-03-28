@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Buy Product,,,,2023-02-21 12:35:49,2023-02-21 12:40:33,4m - 43.945s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Bid or Buy Product/BBP001 - Bid or Buy Product,,,,2023-02-21 12:36:01,2023-02-21 12:38:22,2m - 20.740s,PASSED
+"callTestCase(findTestCase(""Pages/Page_home/add produklangsungditolak""), [""email"":""j.inprion@gmail.com"", ""password"":""qwerty1234"", ""product_name"":""produklangsungtolak"", ""product_price"":""919191"", ""location"":""Tangerang"", ... ], STOP_ON_FAILURE)",,,,2023-02-21 12:36:01,2023-02-21 12:37:04,1m - 2.323s,PASSED
+"callTestCase(findTestCase(""Step Definition/Feature See Product Detail/SDP001 - See Product Detail for Product Langsung Tolak""), [""email"":""jin.prion@gmail.com"", ""password"":""qwerty1234"", ""product_name"":""produklangsung""], STOP_ON_FAILURE)",,,,2023-02-21 12:37:04,2023-02-21 12:37:57,53.884s,PASSED
+"callTestCase(findTestCase(""Pages/Page_buy_product/Verify Content produklangsungtolak""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:37:57,2023-02-21 12:38:03,5.992s,PASSED
+"callTestCase(findTestCase(""Pages/Page_buy_product/Bid produklangsungtolak""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:38:03,2023-02-21 12:38:06,2.795s,PASSED
+"callTestCase(findTestCase(""Pages/Page_buy_product/verify bid success""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:38:06,2023-02-21 12:38:15,8.832s,PASSED
+"callTestCase(findTestCase(""Pages/Page_akun/Log Out Account""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:38:15,2023-02-21 12:38:22,6.517s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Bid or Buy Product/BBPhelper for change status,,,,2023-02-21 12:38:22,2023-02-21 12:40:33,2m - 11.511s,PASSED
+"callTestCase(findTestCase(""Pages/Page_home/add produkgantistatus""), [""email"":""prionaratama@gmail.com"", ""password"":""qwerty1234"", ""product_name"":""produkgantistatus"", ""product_price"":""212121"", ""location"":""Tangerang"", ... ], STOP_ON_FAILURE)",,,,2023-02-21 12:38:22,2023-02-21 12:39:20,58.609s,PASSED
+"callTestCase(findTestCase(""Step Definition/Feature See Product Detail/SDPhelper for change status""), [""email"":""jin.prion@gmail.com"", ""password"":""qwerty1234"", ""product_name"":""produkgantistatus""], STOP_ON_FAILURE)",,,,2023-02-21 12:39:20,2023-02-21 12:40:11,51.069s,PASSED
+"callTestCase(findTestCase(""Pages/Page_buy_product/Bid produklangsungtolak""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:40:11,2023-02-21 12:40:16,5.049s,PASSED
+"callTestCase(findTestCase(""Pages/Page_buy_product/verify bid success""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:40:16,2023-02-21 12:40:25,8.850s,PASSED
+"callTestCase(findTestCase(""Pages/Page_akun/Log Out Account""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:40:25,2023-02-21 12:40:33,7.709s,PASSED

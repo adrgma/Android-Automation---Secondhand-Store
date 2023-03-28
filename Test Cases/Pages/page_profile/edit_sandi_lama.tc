@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>edit_sandi_lama</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>faab905e-5b11-4224-a428-062f29ec1a87</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9ac365a1-fcc5-49cd-a34c-47b9529495ef</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9ac365a1-fcc5-49cd-a34c-47b9529495ef</id>
+      <masked>false</masked>
+      <name>sandi_lama</name>
+   </variable>
+</TestCaseEntity>

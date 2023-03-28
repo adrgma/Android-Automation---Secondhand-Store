@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Login,,,,2023-02-21 12:15:52,2023-02-21 12:19:22,3m - 30.802s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Login/LGI001 - User want to login by using correct credential,,,,2023-02-21 12:16:04,2023-02-21 12:16:35,31.552s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Navigate to Login Page""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:16:04,2023-02-21 12:16:16,11.801s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Verify Content""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:16:16,2023-02-21 12:16:19,2.845s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Email""), [""email"":""mayorey@gmail.com""], STOP_ON_FAILURE)",,,,2023-02-21 12:16:19,2023-02-21 12:16:20,1.821s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Password""), [""password"":""Sooyan321""], STOP_ON_FAILURE)",,,,2023-02-21 12:16:20,2023-02-21 12:16:23,2.444s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Click Masuk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:16:23,2023-02-21 12:16:24,1.490s,PASSED
+"callTestCase(findTestCase(""Pages/Page_home/Navigate to Menu Akun""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:16:24,2023-02-21 12:16:29,4.833s,PASSED
+"callTestCase(findTestCase(""Pages/Page_akun/Log Out Account""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:16:29,2023-02-21 12:16:35,6.028s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Login/LGI002 - User want to login by not filling all field,,,,2023-02-21 12:16:35,2023-02-21 12:16:51,15.398s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Navigate to Login Page""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:16:35,2023-02-21 12:16:47,11.143s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Verify Content""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:16:47,2023-02-21 12:16:49,2.637s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Click Masuk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:16:49,2023-02-21 12:16:51,1.413s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Login/LGI003 - User want to login by using incorrect email credential,,,,2023-02-21 12:16:51,2023-02-21 12:17:13,22.653s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Navigate to Login Page""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:16:51,2023-02-21 12:17:03,12.376s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Verify Content""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:17:03,2023-02-21 12:17:08,4.291s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Email""), [""email"":""mayorey2@gmail.com""], STOP_ON_FAILURE)",,,,2023-02-21 12:17:08,2023-02-21 12:17:10,2.392s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Password""), [""password"":""Sooyan321""], STOP_ON_FAILURE)",,,,2023-02-21 12:17:10,2023-02-21 12:17:12,2.488s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Click Masuk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:17:12,2023-02-21 12:17:13,0.905s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Login/LGI004 - User want to login by using incorrect password credential,,,,2023-02-21 12:17:13,2023-02-21 12:17:34,20.648s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Navigate to Login Page""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:17:14,2023-02-21 12:17:25,11.094s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Verify Content""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:17:25,2023-02-21 12:17:28,2.868s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Email""), [""email"":""mayorey@gmail.com""], STOP_ON_FAILURE)",,,,2023-02-21 12:17:28,2023-02-21 12:17:30,2.131s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Password""), [""password"":""Soo1yan32""], STOP_ON_FAILURE)",,,,2023-02-21 12:17:30,2023-02-21 12:17:32,2.427s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Click Masuk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:17:32,2023-02-21 12:17:34,1.932s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Login/LGI005 - User want to login by input incorrect email format on email textfield,,,,2023-02-21 12:17:34,2023-02-21 12:17:55,20.831s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Navigate to Login Page""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:17:34,2023-02-21 12:17:46,12.020s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Verify Content""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:17:46,2023-02-21 12:17:49,2.842s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Email""), [""email"":""mayoreygmail.com""], STOP_ON_FAILURE)",,,,2023-02-21 12:17:49,2023-02-21 12:17:51,2.127s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Password""), [""password"":""Sooyan321""], STOP_ON_FAILURE)",,,,2023-02-21 12:17:51,2023-02-21 12:17:53,1.945s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Click Masuk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:17:53,2023-02-21 12:17:55,1.694s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Login/LGI006 - User want to login by input incorrect password format on password textfield,,,,2023-02-21 12:17:55,2023-02-21 12:18:15,20.341s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Navigate to Login Page""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:17:55,2023-02-21 12:18:07,11.603s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Verify Content""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:18:07,2023-02-21 12:18:10,3.536s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Email""), [""email"":""mayorey@gmail.com""], STOP_ON_FAILURE)",,,,2023-02-21 12:18:10,2023-02-21 12:18:12,1.626s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Password""), [""password"":""So""], STOP_ON_FAILURE)",,,,2023-02-21 12:18:12,2023-02-21 12:18:14,2.488s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Click Masuk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:18:14,2023-02-21 12:18:15,0.879s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Login/LGI007 - User want to login by reveal his password,,,,2023-02-21 12:18:15,2023-02-21 12:18:47,32.232s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Navigate to Login Page""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:18:15,2023-02-21 12:18:28,12.626s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Verify Content""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:18:28,2023-02-21 12:18:31,2.695s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Email""), [""email"":""mayorey@gmail.com""], STOP_ON_FAILURE)",,,,2023-02-21 12:18:31,2023-02-21 12:18:33,2.119s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Password""), [""password"":""Sooyan321""], STOP_ON_FAILURE)",,,,2023-02-21 12:18:33,2023-02-21 12:18:35,2.403s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Reveal Password""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:18:35,2023-02-21 12:18:36,0.672s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Click Masuk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:18:36,2023-02-21 12:18:37,0.931s,PASSED
+"callTestCase(findTestCase(""Pages/Page_home/Navigate to Menu Akun""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:18:37,2023-02-21 12:18:41,4.628s,PASSED
+"callTestCase(findTestCase(""Pages/Page_akun/Log Out Account""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:18:41,2023-02-21 12:18:47,5.955s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Login/LGI008 - User want to login by hide his password,,,,2023-02-21 12:18:47,2023-02-21 12:19:22,35.026s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Navigate to Login Page""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:18:48,2023-02-21 12:19:01,12.994s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Verify Content""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:19:01,2023-02-21 12:19:03,2.267s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Email""), [""email"":""mayorey@gmail.com""], STOP_ON_FAILURE)",,,,2023-02-21 12:19:03,2023-02-21 12:19:05,1.852s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Password""), [""password"":""Sooyan321""], STOP_ON_FAILURE)",,,,2023-02-21 12:19:05,2023-02-21 12:19:07,2.264s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Hide Password""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:19:07,2023-02-21 12:19:09,1.772s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Click Masuk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:19:09,2023-02-21 12:19:11,2.257s,PASSED
+"callTestCase(findTestCase(""Pages/Page_home/Navigate to Menu Akun""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:19:11,2023-02-21 12:19:17,5.534s,PASSED
+"callTestCase(findTestCase(""Pages/Page_akun/Log Out Account""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:19:17,2023-02-21 12:19:22,5.877s,PASSED

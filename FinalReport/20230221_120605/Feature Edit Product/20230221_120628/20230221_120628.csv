@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Edit Product,,,,2023-02-21 12:32:06,2023-02-21 12:33:33,1m - 27.069s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Edit Product/EDP001 - Cancel Edit Product,,,,2023-02-21 12:32:18,2023-02-21 12:32:38,19.674s,PASSED
+"callTestCase(findTestCase(""Pages/Page_home/Navigate to Menu Akun""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:32:19,2023-02-21 12:32:24,4.746s,PASSED
+"callTestCase(findTestCase(""Pages/Page_akun/Click Masuk Button""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:32:24,2023-02-21 12:32:25,1.150s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Email""), [""email"":email], STOP_ON_FAILURE)",,,,2023-02-21 12:32:25,2023-02-21 12:32:28,3.000s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Password""), [""password"":password], STOP_ON_FAILURE)",,,,2023-02-21 12:32:28,2023-02-21 12:32:30,2.447s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Click Masuk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:32:30,2023-02-21 12:32:33,2.504s,PASSED
+"callTestCase(findTestCase(""Pages/Page_akun/Navigate to Daftar Jual Saya""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:32:33,2023-02-21 12:32:34,1.269s,PASSED
+"callTestCase(findTestCase(""Pages/Page_daftarjual/Navigate to Edit Product""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:32:34,2023-02-21 12:32:37,2.577s,PASSED
+"callTestCase(findTestCase(""Pages/Page_ubah_produk/Cancel Edit Product""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:32:37,2023-02-21 12:32:38,1.599s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Edit Product/EDP002 - Edit product with valid information,,,,2023-02-21 12:32:38,2023-02-21 12:33:33,54.549s,PASSED
+"callTestCase(findTestCase(""Pages/Page_daftarjual/Navigate to Edit Product""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:32:38,2023-02-21 12:32:40,1.695s,PASSED
+"callTestCase(findTestCase(""Pages/Page_ubah_produk/Verify element ubah produk present""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:32:40,2023-02-21 12:32:44,3.910s,PASSED
+"callTestCase(findTestCase(""Pages/Page_ubah_produk/Input product name""), [""product_name"":product_name], STOP_ON_FAILURE)",,,,2023-02-21 12:32:44,2023-02-21 12:32:47,2.553s,PASSED
+"callTestCase(findTestCase(""Pages/Page_ubah_produk/Input product price""), [""product_price"":product_price], STOP_ON_FAILURE)",,,,2023-02-21 12:32:47,2023-02-21 12:32:49,2.824s,PASSED
+"callTestCase(findTestCase(""Pages/Page_ubah_produk/Input location""), [""location"":location], STOP_ON_FAILURE)",,,,2023-02-21 12:32:49,2023-02-21 12:32:53,3.205s,PASSED
+"callTestCase(findTestCase(""Pages/Page_ubah_produk/Input Description""), [""product_description"":product_description], STOP_ON_FAILURE)",,,,2023-02-21 12:32:53,2023-02-21 12:32:55,2.644s,PASSED
+"callTestCase(findTestCase(""Pages/Page_ubah_produk/Choose New Category""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:32:55,2023-02-21 12:32:59,4.086s,PASSED
+"callTestCase(findTestCase(""Pages/Page_ubah_produk/upload photo""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:32:59,2023-02-21 12:33:10,11.071s,PASSED
+"callTestCase(findTestCase(""Pages/Page_ubah_produk/Click Perbarui Produk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:33:10,2023-02-21 12:33:13,2.483s,PASSED
+"callTestCase(findTestCase(""Pages/Page_daftarjual/Verify Edit Product Success""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:33:13,2023-02-21 12:33:24,11.617s,PASSED
+"callTestCase(findTestCase(""Pages/Page_daftarjual/Back To Akun Menu""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:33:24,2023-02-21 12:33:26,1.819s,PASSED
+"callTestCase(findTestCase(""Pages/Page_akun/Log Out Account""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:33:26,2023-02-21 12:33:33,6.374s,PASSED

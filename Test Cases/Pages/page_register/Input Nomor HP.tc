@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To clear and input nomor hp textfield</description>
+   <name>Input Nomor HP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f26af6d-fcdf-4d08-a080-fef0f40bccdf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8cd68a75-9c1d-4873-8f0f-017fb767cdc8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>8cd68a75-9c1d-4873-8f0f-017fb767cdc8</id>
+      <masked>false</masked>
+      <name>nomorhp</name>
+   </variable>
+</TestCaseEntity>

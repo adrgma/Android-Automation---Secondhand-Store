@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify all elements is visible on User Register page</description>
+   <name>verify_content</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdd26726-ca9e-4a57-9654-62bff0c08137</testCaseGuid>
+</TestCaseEntity>

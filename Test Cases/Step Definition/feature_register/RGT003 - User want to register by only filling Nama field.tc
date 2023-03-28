@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RGT003 - User want to register by only filling Nama field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed34b687-e052-4cb2-ac4e-653511360a5b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5850a86d-fb4c-4f3c-bb99-a6c0c28fada8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Mayorey2'</defaultValue>
+      <description></description>
+      <id>5850a86d-fb4c-4f3c-bb99-a6c0c28fada8</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+</TestCaseEntity>

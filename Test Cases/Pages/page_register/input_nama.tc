@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To clear and input nama textfield</description>
+   <name>input_nama</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca229420-e67e-498e-9e6e-c31862d0f679</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51829a27-aa28-4686-910c-16772bf83d82</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>51829a27-aa28-4686-910c-16772bf83d82</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+</TestCaseEntity>

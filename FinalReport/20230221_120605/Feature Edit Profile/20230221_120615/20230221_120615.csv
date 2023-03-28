@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Edit Profile,,,,2023-02-21 12:21:10,2023-02-21 12:22:55,1m - 45.076s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Edit Profile/EPR001 - Edit Profile,,,,2023-02-21 12:21:22,2023-02-21 12:22:55,1m - 33.216s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Navigate to Login Page""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:21:22,2023-02-21 12:21:34,11.728s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Email""), [""email"":""studentqa3@binar.id""], STOP_ON_FAILURE)",,,,2023-02-21 12:21:34,2023-02-21 12:21:37,3.044s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Password""), [""password"":""studentQA3""], STOP_ON_FAILURE)",,,,2023-02-21 12:21:37,2023-02-21 12:21:40,2.427s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Click Masuk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:21:40,2023-02-21 12:21:42,2.401s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Icon Pensil""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:21:42,2023-02-21 12:21:43,0.695s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-02-21 12:21:43,2023-02-21 12:21:48,5.009s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Text Nama""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:21:48,2023-02-21 12:21:48,0.675s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Edit Nama""), [""nama"":""Jeje""], STOP_ON_FAILURE)",,,,2023-02-21 12:21:48,2023-02-21 12:21:52,3.331s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Button Simpan Nama""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:21:52,2023-02-21 12:21:52,0.855s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Label Silang Notif Sukses""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:21:52,2023-02-21 12:21:55,2.362s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Icon Panah Kembali""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:21:55,2023-02-21 12:21:56,0.695s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Icon Pensil""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:21:56,2023-02-21 12:21:57,1.238s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Text Nohp""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:21:57,2023-02-21 12:21:58,1.281s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Edit Nohp""), [""nohp"":""098276257""], STOP_ON_FAILURE)",,,,2023-02-21 12:21:58,2023-02-21 12:22:01,3.144s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Button Simpan Nohp""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:01,2023-02-21 12:22:02,0.808s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Label Silang Notif Sukses""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:02,2023-02-21 12:22:04,1.727s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Icon Panah Kembali""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:04,2023-02-21 12:22:06,2.000s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Icon Pensil""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:06,2023-02-21 12:22:06,0.530s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Text Kota""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:06,2023-02-21 12:22:08,1.339s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Edit Kota""), [""kota"":""Jogjakarta""], STOP_ON_FAILURE)",,,,2023-02-21 12:22:08,2023-02-21 12:22:11,3.350s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Button Simpan Kota""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:11,2023-02-21 12:22:12,0.839s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Label Silang Notif Sukses""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:12,2023-02-21 12:22:14,2.294s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Icon Panah Kembali""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:14,2023-02-21 12:22:16,1.433s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Icon Pensil""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:16,2023-02-21 12:22:16,0.542s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Text Alamat""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:16,2023-02-21 12:22:17,1.393s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Edit Alamat""), [""alamat"":""Jogja""], STOP_ON_FAILURE)",,,,2023-02-21 12:22:17,2023-02-21 12:22:20,2.696s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Button Simpan Alamat""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:20,2023-02-21 12:22:21,0.832s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Label Silang Notif Sukses""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:21,2023-02-21 12:22:23,1.758s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Icon Panah Kembali""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:23,2023-02-21 12:22:25,1.942s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Icon Pensil""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:25,2023-02-21 12:22:25,0.494s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Text Edit Email""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:25,2023-02-21 12:22:27,1.458s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Edit Email""), [""email"":""studentqa3@binar.id""], STOP_ON_FAILURE)",,,,2023-02-21 12:22:27,2023-02-21 12:22:30,3.222s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Button Simpan Email""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:30,2023-02-21 12:22:31,0.843s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Label Silang Notif Sukses""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:31,2023-02-21 12:22:33,2.300s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Icon Panah Kembali""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:33,2023-02-21 12:22:34,1.399s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Icon Pensil""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:34,2023-02-21 12:22:35,0.533s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Text Edit Sandi""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:35,2023-02-21 12:22:36,1.400s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Edit Sandi Lama""), [""sandi_lama"":""studentQA3""], STOP_ON_FAILURE)",,,,2023-02-21 12:22:36,2023-02-21 12:22:40,3.232s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Edit Sandi Baru""), [""sandi_baru"":""studentQA3""], STOP_ON_FAILURE)",,,,2023-02-21 12:22:40,2023-02-21 12:22:42,2.379s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Edit Sandi Baru Konfirm""), [""konfirm_sandi_baru"":""studentQA3""], STOP_ON_FAILURE)",,,,2023-02-21 12:22:42,2023-02-21 12:22:45,2.803s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Click Button Simpan Sandi""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:45,2023-02-21 12:22:46,0.826s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Label Sukses Update""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:46,2023-02-21 12:22:47,1.869s,PASSED
+"callTestCase(findTestCase(""Pages/Page_profile/Back to Menu Akun""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:47,2023-02-21 12:22:49,1.652s,PASSED
+"callTestCase(findTestCase(""Pages/Page_akun/Log Out Account""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:22:49,2023-02-21 12:22:55,6.106s,PASSED

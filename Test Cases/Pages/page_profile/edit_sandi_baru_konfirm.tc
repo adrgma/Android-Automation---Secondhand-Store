@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>edit_sandi_baru_konfirm</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>51e7bd97-7b05-49e9-b9bc-ece5eb0eada7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c1475b6-44d8-4b30-a886-082e2255e68f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0c1475b6-44d8-4b30-a886-082e2255e68f</id>
+      <masked>false</masked>
+      <name>konfirm_sandi_baru</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Notifikasi,,,,2023-02-21 12:23:40,2023-02-21 12:24:17,36.680s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Notifikasi/Not001 - Notifikasi,,,,2023-02-21 12:23:52,2023-02-21 12:24:17,24.616s,PASSED
+"callTestCase(findTestCase(""Pages/Page_notifikasi/Login Page Notifikasi""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:23:52,2023-02-21 12:23:58,5.934s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Email""), [""email"":""studentqa3@binar.id""], STOP_ON_FAILURE)",,,,2023-02-21 12:23:58,2023-02-21 12:24:01,2.563s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Password""), [""password"":""studentQA3""], STOP_ON_FAILURE)",,,,2023-02-21 12:24:01,2023-02-21 12:24:03,2.461s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Click Masuk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:24:03,2023-02-21 12:24:06,2.462s,PASSED
+"callTestCase(findTestCase(""Pages/Page_notifikasi/List Notif""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:24:06,2023-02-21 12:24:08,2.590s,PASSED
+"callTestCase(findTestCase(""Pages/Page_akun/Log Out Account""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:24:08,2023-02-21 12:24:17,8.337s,PASSED

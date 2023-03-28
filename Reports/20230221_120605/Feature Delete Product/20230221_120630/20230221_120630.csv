@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Delete Product,,,,2023-02-21 12:34:12,2023-02-21 12:35:15,1m - 2.605s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Delete Product/DLP001 - Cancel Delete Product,,,,2023-02-21 12:34:24,2023-02-21 12:34:50,25.768s,PASSED
+"callTestCase(findTestCase(""Pages/Page_home/Navigate to Menu Akun""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:34:24,2023-02-21 12:34:29,4.880s,PASSED
+"callTestCase(findTestCase(""Pages/Page_akun/Click Masuk Button""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:34:29,2023-02-21 12:34:30,1.036s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Email""), [""email"":email], STOP_ON_FAILURE)",,,,2023-02-21 12:34:30,2023-02-21 12:34:33,3.014s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Password""), [""password"":password], STOP_ON_FAILURE)",,,,2023-02-21 12:34:33,2023-02-21 12:34:36,2.488s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Click Masuk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:34:36,2023-02-21 12:34:37,0.871s,PASSED
+"callTestCase(findTestCase(""Pages/Page_home/Navigate to Menu Akun""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:34:37,2023-02-21 12:34:42,4.977s,PASSED
+"callTestCase(findTestCase(""Pages/Page_akun/Navigate to Daftar Jual Saya""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:34:42,2023-02-21 12:34:43,1.280s,PASSED
+"callTestCase(findTestCase(""Pages/Page_daftarjual/Navigate to Delete Product""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:34:43,2023-02-21 12:34:47,3.918s,PASSED
+"callTestCase(findTestCase(""Pages/Page_daftarjual/Click Confirmation Cancel Delete""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:34:47,2023-02-21 12:34:48,0.891s,PASSED
+"callTestCase(findTestCase(""Pages/Page_daftarjual/Back To Akun Menu""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:34:48,2023-02-21 12:34:50,2.026s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Delete Product/DLP002 - Delete Product,,,,2023-02-21 12:34:50,2023-02-21 12:35:15,24.961s,PASSED
+"callTestCase(findTestCase(""Pages/Page_akun/Navigate to Daftar Jual Saya""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:34:50,2023-02-21 12:34:51,0.794s,PASSED
+"callTestCase(findTestCase(""Pages/Page_daftarjual/Navigate to Delete Product""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:34:51,2023-02-21 12:34:55,3.838s,PASSED
+"callTestCase(findTestCase(""Pages/Page_daftarjual/Click Confirmation Hapus""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:34:55,2023-02-21 12:34:55,0.815s,PASSED
+"callTestCase(findTestCase(""Pages/Page_daftarjual/Verify Delete Product Success""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:34:55,2023-02-21 12:35:06,10.475s,PASSED
+"callTestCase(findTestCase(""Pages/Page_daftarjual/Back To Akun Menu""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:35:06,2023-02-21 12:35:07,1.572s,PASSED
+"callTestCase(findTestCase(""Pages/Page_akun/Log Out Account""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:35:07,2023-02-21 12:35:15,7.250s,PASSED

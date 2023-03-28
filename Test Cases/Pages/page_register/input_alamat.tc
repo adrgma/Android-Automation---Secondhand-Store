@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To clear and input alamat textfield</description>
+   <name>input_alamat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>396ddc55-c90c-44fa-b2ea-4991f7af8bc8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c30bca3e-832c-421c-9838-4ba382fc8296</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c30bca3e-832c-421c-9838-4ba382fc8296</id>
+      <masked>false</masked>
+      <name>alamat</name>
+   </variable>
+</TestCaseEntity>

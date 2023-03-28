@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+<<<<<<<< HEAD:Test Cases/Pages/Page_profile/Click Button Login.tc
+   <name>Click Button Login</name>
+========
+   <name>Hide Password</name>
+>>>>>>>> 214b62efc70d76e2150e1bed7d2f3cdd3250a2a7:Test Cases/Pages/Page_register/Hide Password.tc
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf6a84dc-80e4-438e-b9d9-1943904bee73</testCaseGuid>
+</TestCaseEntity>

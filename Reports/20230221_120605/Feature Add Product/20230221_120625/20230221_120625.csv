@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Add Product,,,,2023-02-21 12:29:43,2023-02-21 12:31:34,1m - 51.304s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Add Product/ADP001 - Add product with valid input,,,,2023-02-21 12:29:54,2023-02-21 12:30:46,51.740s,PASSED
+"callTestCase(findTestCase(""Pages/Page_home/Navigate to Menu Akun""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:29:55,2023-02-21 12:30:00,5.187s,PASSED
+"callTestCase(findTestCase(""Pages/Page_akun/Click Masuk Button""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:30:00,2023-02-21 12:30:01,1.177s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Email""), [""email"":email], STOP_ON_FAILURE)",,,,2023-02-21 12:30:01,2023-02-21 12:30:04,3.070s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Password""), [""password"":password], STOP_ON_FAILURE)",,,,2023-02-21 12:30:04,2023-02-21 12:30:06,1.997s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Click Masuk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:30:06,2023-02-21 12:30:09,2.510s,PASSED
+"callTestCase(findTestCase(""Pages/Page_home/Navigate to Tambah Produk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:30:09,2023-02-21 12:30:10,1.732s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/verify element tambah produk present""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:30:10,2023-02-21 12:30:13,2.935s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/Input product name""), [""product_name"":product_name], STOP_ON_FAILURE)",,,,2023-02-21 12:30:13,2023-02-21 12:30:16,2.759s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/Input product price""), [""product_price"":product_price], STOP_ON_FAILURE)",,,,2023-02-21 12:30:16,2023-02-21 12:30:18,1.984s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/Input location""), [""location"":location], STOP_ON_FAILURE)",,,,2023-02-21 12:30:18,2023-02-21 12:30:20,1.949s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/Input Description""), [""product_description"":product_description], STOP_ON_FAILURE)",,,,2023-02-21 12:30:20,2023-02-21 12:30:23,2.494s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/Choose Category""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:30:23,2023-02-21 12:30:25,2.608s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/upload photo""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:30:25,2023-02-21 12:30:36,10.732s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/Click Terbitkan""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:30:36,2023-02-21 12:30:38,2.144s,PASSED
+"callTestCase(findTestCase(""Pages/Page_daftarjual/Verify Add Product Success""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:30:38,2023-02-21 12:30:45,7.005s,PASSED
+"callTestCase(findTestCase(""Pages/Page_daftarjual/Back To Akun Menu""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:30:45,2023-02-21 12:30:46,1.003s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Add Product/ADP002 - Preview Product,,,,2023-02-21 12:30:46,2023-02-21 12:31:19,33.228s,PASSED
+"callTestCase(findTestCase(""Pages/Page_home/Navigate to Tambah Produk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:30:46,2023-02-21 12:30:48,1.893s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/verify element tambah produk present""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:30:48,2023-02-21 12:30:51,2.553s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/Input product name""), [""product_name"":product_name], STOP_ON_FAILURE)",,,,2023-02-21 12:30:51,2023-02-21 12:30:53,2.259s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/Input product price""), [""product_price"":product_price], STOP_ON_FAILURE)",,,,2023-02-21 12:30:53,2023-02-21 12:30:55,2.458s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/Input location""), [""location"":location], STOP_ON_FAILURE)",,,,2023-02-21 12:30:55,2023-02-21 12:30:57,1.937s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/Input Description""), [""product_description"":product_description], STOP_ON_FAILURE)",,,,2023-02-21 12:30:57,2023-02-21 12:31:00,2.385s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/Choose Category""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:31:00,2023-02-21 12:31:02,2.724s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/upload photo""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:31:02,2023-02-21 12:31:13,10.548s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/Click Preview""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:31:13,2023-02-21 12:31:14,1.353s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tinjau_produk/Verify Preview Product Success""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:31:14,2023-02-21 12:31:18,3.147s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tinjau_produk/Back to Page Tambah Produk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:31:18,2023-02-21 12:31:18,0.657s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/Cancel Add Product""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:31:18,2023-02-21 12:31:19,1.078s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Add Product/ADP003 - Cancel Add Product,,,,2023-02-21 12:31:19,2023-02-21 12:31:34,14.588s,PASSED
+"callTestCase(findTestCase(""Pages/Page_home/Navigate to Tambah Produk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:31:19,2023-02-21 12:31:21,1.787s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/verify element tambah produk present""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:31:21,2023-02-21 12:31:24,2.427s,PASSED
+"callTestCase(findTestCase(""Pages/Page_tambah_produk/Cancel Add Product""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:31:24,2023-02-21 12:31:25,1.537s,PASSED
+"callTestCase(findTestCase(""Pages/Page_akun/Log Out Account""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:31:25,2023-02-21 12:31:34,8.638s,PASSED

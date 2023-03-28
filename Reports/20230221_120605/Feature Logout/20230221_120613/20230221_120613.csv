@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Logout,,,,2023-02-21 12:20:01,2023-02-21 12:20:37,36.103s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Logout/LGO001 - User wants to log out from his account,,,,2023-02-21 12:20:13,2023-02-21 12:20:37,24.377s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Navigate to Login Page""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:20:13,2023-02-21 12:20:25,11.501s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Verify Content""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:20:25,2023-02-21 12:20:28,3.056s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Email""), [""email"":""mayorey@gmail.com""], STOP_ON_FAILURE)",,,,2023-02-21 12:20:28,2023-02-21 12:20:30,2.385s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Password""), [""password"":""Sooyan321""], STOP_ON_FAILURE)",,,,2023-02-21 12:20:30,2023-02-21 12:20:33,2.446s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Click Masuk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:20:33,2023-02-21 12:20:34,0.825s,PASSED
+"callTestCase(findTestCase(""Pages/Page_home/Click button log out""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:20:34,2023-02-21 12:20:37,3.747s,PASSED

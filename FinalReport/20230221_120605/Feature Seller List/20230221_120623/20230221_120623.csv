@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Seller List,,,,2023-02-21 12:27:23,2023-02-21 12:28:23,59.608s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Seller List/SLL001 - All Product,,,,2023-02-21 12:27:35,2023-02-21 12:28:06,31.710s,PASSED
+"callTestCase(findTestCase(""Pages/Page_home/Navigate to Menu Akun""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:27:35,2023-02-21 12:27:40,4.959s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Navigate to Login Page""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:27:40,2023-02-21 12:27:51,11.423s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Email""), [""email"":""Putriyulina45@gmail.com""], STOP_ON_FAILURE)",,,,2023-02-21 12:27:51,2023-02-21 12:27:55,3.073s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Input Password""), [""password"":""Puyulputriyulina123""], STOP_ON_FAILURE)",,,,2023-02-21 12:27:55,2023-02-21 12:27:57,2.444s,PASSED
+"callTestCase(findTestCase(""Pages/Page_login/Click Masuk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:27:57,2023-02-21 12:27:58,1.496s,PASSED
+"callTestCase(findTestCase(""Pages/Page_home/Navigate to Menu Akun""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:27:58,2023-02-21 12:28:04,5.183s,PASSED
+"callTestCase(findTestCase(""Pages/Page_seller_list/Navigate to Daftar Jual""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:28:04,2023-02-21 12:28:05,1.654s,PASSED
+"callTestCase(findTestCase(""Pages/Page_seller_list/Verify All Product""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:28:05,2023-02-21 12:28:06,1.156s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Seller List/SLL002 - List Diminati,,,,2023-02-21 12:28:06,2023-02-21 12:28:11,4.422s,PASSED
+"callTestCase(findTestCase(""Pages/Page_seller_list/Click Diminati""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:28:07,2023-02-21 12:28:09,2.125s,PASSED
+"callTestCase(findTestCase(""Pages/Page_seller_list/Verify List Diminati""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:28:09,2023-02-21 12:28:11,2.054s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Seller List/SLL003 - List Terjual,,,,2023-02-21 12:28:11,2023-02-21 12:28:23,11.629s,PASSED
+"callTestCase(findTestCase(""Pages/Page_seller_list/Click Terjual""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:28:11,2023-02-21 12:28:12,1.075s,PASSED
+"callTestCase(findTestCase(""Pages/Page_seller_list/Verify List Terjual""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:28:12,2023-02-21 12:28:13,0.910s,PASSED
+"callTestCase(findTestCase(""Pages/Page_daftarjual/Back To Akun Menu""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:28:13,2023-02-21 12:28:15,1.880s,PASSED
+"callTestCase(findTestCase(""Pages/Page_akun/Log Out Account""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:28:15,2023-02-21 12:28:23,7.570s,PASSED

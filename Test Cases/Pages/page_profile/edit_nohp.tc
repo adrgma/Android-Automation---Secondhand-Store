@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>edit_nohp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77705e24-b7b9-4109-8f17-11782e947875</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3a696c13-b6b2-46ba-86c8-6f3c4bc08cd7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3a696c13-b6b2-46ba-86c8-6f3c4bc08cd7</id>
+      <masked>false</masked>
+      <name>nohp</name>
+   </variable>
+</TestCaseEntity>

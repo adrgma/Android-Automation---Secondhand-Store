@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Pencarian,,,,2023-02-21 12:24:58,2023-02-21 12:25:24,26.090s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Pencarian/Car001 - Pencarian,,,,2023-02-21 12:25:09,2023-02-21 12:25:24,14.119s,PASSED
+"callTestCase(findTestCase(""Pages/Page_pencarian/Input Nama Produk""), [""nama_produk"":""Baju muslim""], STOP_ON_FAILURE)",,,,2023-02-21 12:25:10,2023-02-21 12:25:20,9.935s,PASSED
+"callTestCase(findTestCase(""Pages/Page_pencarian/Click Hasil Pencarian""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:25:20,2023-02-21 12:25:21,1.498s,PASSED
+"callTestCase(findTestCase(""Pages/Page_pencarian/Detail Produk""), [:], STOP_ON_FAILURE)",,,,2023-02-21 12:25:21,2023-02-21 12:25:24,2.419s,PASSED

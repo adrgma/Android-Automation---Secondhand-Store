@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Filter" time="28.955" tests="1" failures="0" errors="0">
+   <testsuite name="Feature Filter" tests="1" failures="0" errors="0" time="28.955" skipped="0" timestamp="2023-02-21 12:26:09" hostname="ADITIA ARGA PRATAMA - LAPTOP-L0K8P5OF" id="Test Suites/Feature Filter">
+      <properties>
+         <property name="deviceName" value="samsung SM-A525F (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\android-automation-testing-kelompok-1.git\\Reports\\20230221_120605\\Feature Filter\\20230221_120621"/>
+         <property name="logFiles" value="D:\\android-automation-testing-kelompok-1.git\\Reports\\20230221_120605\\Feature Filter\\20230221_120621\\appium.log, D:\\android-automation-testing-kelompok-1.git\\Reports\\20230221_120605\\Feature Filter\\20230221_120621\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ADITIA ARGA PRATAMA - LAPTOP-L0K8P5OF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A525F"/>
+         <property name="hostAddress" value="192.168.0.139"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8R602SN8Y"/>
+         <property name="deviceName" value="samsung SM-A525F (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/Feature Filter/FLT001 - Filter" time="17.034" classname="Test Cases/Step Definition/Feature Filter/FLT001 - Filter" status="PASSED">
+         <system-out><![CDATA[2023-02-21 12:26:21 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Filter/FLT001 - Filter: Test Cases/Step Definition/Feature Filter/FLT001 - Filter
+
+2023-02-21 12:26:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_filter/Click Filter Elektronik"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_filter/Click Filter Elektronik' successfully
+
+2023-02-21 12:26:21 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_filter/Click Filter Elektronik: Test Cases/Pages/Page_filter/Click Filter Elektronik
+
+2023-02-21 12:26:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_filter/cardview_elektronik"), 3): Object Object Repository/Page_filter/cardview_elektronik not found
+
+2023-02-21 12:26:25 - [MESSAGE][WARNING] - Object Object Repository/Page_filter/cardview_elektronik not found
+
+2023-02-21 12:26:25 - [TEST_STEP][PASSED] - tap(findTestObject("Page_filter/cardview_elektronik"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Page_filter/cardview_elektronik'
+
+2023-02-21 12:26:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:26:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_filter/cardview_elektronik'
+
+2023-02-21 12:26:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_filter/Click Filter Elektronik' successfully
+
+2023-02-21 12:26:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_filter/Verify Button Category Elektronik"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_filter/Verify Button Category Elektronik' successfully
+
+2023-02-21 12:26:26 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_filter/Verify Button Category Elektronik: Test Cases/Pages/Page_filter/Verify Button Category Elektronik
+
+2023-02-21 12:26:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_filter/cardview_elektronik"), 3): Element 'Object Repository/Page_filter/cardview_elektronik' is present
+
+2023-02-21 12:26:28 - [MESSAGE][PASSED] - Element 'Object Repository/Page_filter/cardview_elektronik' is present
+
+2023-02-21 12:26:28 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Page_filter/cardview_elektronik"), "focusable", "true", 0): Object 'Object Repository/Page_filter/cardview_elektronik' has attribute 'focusable' with value 'true'
+
+2023-02-21 12:26:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:26:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_filter/cardview_elektronik' has attribute 'focusable' with value 'true'
+
+2023-02-21 12:26:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_filter/Verify Button Category Elektronik' successfully
+
+2023-02-21 12:26:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_filter/Click Filter Komputer dan Aksesoris"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_filter/Click Filter Komputer dan Aksesoris' successfully
+
+2023-02-21 12:26:28 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_filter/Click Filter Komputer dan Aksesoris: Test Cases/Pages/Page_filter/Click Filter Komputer dan Aksesoris
+
+2023-02-21 12:26:28 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_filter/cardview_komputer_aksesoris"), 3): Element 'Object Repository/Page_filter/cardview_komputer_aksesoris' is present
+
+2023-02-21 12:26:29 - [MESSAGE][PASSED] - Element 'Object Repository/Page_filter/cardview_komputer_aksesoris' is present
+
+2023-02-21 12:26:29 - [TEST_STEP][PASSED] - tap(findTestObject("Page_filter/cardview_komputer_aksesoris"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Page_filter/cardview_komputer_aksesoris'
+
+2023-02-21 12:26:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:26:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_filter/cardview_komputer_aksesoris'
+
+2023-02-21 12:26:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_filter/Click Filter Komputer dan Aksesoris' successfully
+
+2023-02-21 12:26:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_filter/Verify Button Category Komputer Aksesoris"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_filter/Verify Button Category Komputer Aksesoris' successfully
+
+2023-02-21 12:26:29 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_filter/Verify Button Category Komputer Aksesoris: Test Cases/Pages/Page_filter/Verify Button Category Komputer Aksesoris
+
+2023-02-21 12:26:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_filter/cardview_komputer_aksesoris"), 3): Element 'Object Repository/Page_filter/cardview_komputer_aksesoris' is present
+
+2023-02-21 12:26:30 - [MESSAGE][PASSED] - Element 'Object Repository/Page_filter/cardview_komputer_aksesoris' is present
+
+2023-02-21 12:26:30 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Page_filter/cardview_komputer_aksesoris"), "focusable", "true", 0): Object 'Object Repository/Page_filter/cardview_komputer_aksesoris' has attribute 'focusable' with value 'true'
+
+2023-02-21 12:26:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:26:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_filter/cardview_komputer_aksesoris' has attribute 'focusable' with value 'true'
+
+2023-02-21 12:26:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_filter/Verify Button Category Komputer Aksesoris' successfully
+
+2023-02-21 12:26:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_filter/Click Filter Handphone dan Aksesoris"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_filter/Click Filter Handphone dan Aksesoris' successfully
+
+2023-02-21 12:26:31 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_filter/Click Filter Handphone dan Aksesoris: Test Cases/Pages/Page_filter/Click Filter Handphone dan Aksesoris
+
+2023-02-21 12:26:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_filter/cardview_handphone_aksesoris"), 3): Element 'Object Repository/Page_filter/cardview_handphone_aksesoris' is present
+
+2023-02-21 12:26:32 - [MESSAGE][PASSED] - Element 'Object Repository/Page_filter/cardview_handphone_aksesoris' is present
+
+2023-02-21 12:26:32 - [TEST_STEP][PASSED] - tap(findTestObject("Page_filter/cardview_handphone_aksesoris"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Page_filter/cardview_handphone_aksesoris'
+
+2023-02-21 12:26:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:26:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_filter/cardview_handphone_aksesoris'
+
+2023-02-21 12:26:32 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-02-21 12:26:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-02-21 12:26:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_filter/Click Filter Handphone dan Aksesoris' successfully
+
+2023-02-21 12:26:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Page_filter/Verify Button Category Handphone Aksesoris"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Page_filter/Verify Button Category Handphone Aksesoris' successfully
+
+2023-02-21 12:26:37 - [TEST_CASE][PASSED] - Test Cases/Pages/Page_filter/Verify Button Category Handphone Aksesoris: Test Cases/Pages/Page_filter/Verify Button Category Handphone Aksesoris
+
+2023-02-21 12:26:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_filter/cardview_handphone_aksesoris"), 3): Element 'Object Repository/Page_filter/cardview_handphone_aksesoris' is present
+
+2023-02-21 12:26:37 - [MESSAGE][PASSED] - Element 'Object Repository/Page_filter/cardview_handphone_aksesoris' is present
+
+2023-02-21 12:26:37 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Page_filter/cardview_handphone_aksesoris"), "focusable", "true", 0): Object 'Object Repository/Page_filter/cardview_handphone_aksesoris' has attribute 'focusable' with value 'true'
+
+2023-02-21 12:26:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-21 12:26:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_filter/cardview_handphone_aksesoris' has attribute 'focusable' with value 'true'
+
+2023-02-21 12:26:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Page_filter/Verify Button Category Handphone Aksesoris' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-21 12:26:09 - [TEST_SUITE][PASSED] - Feature Filter: Test Cases/Step Definition/Feature Filter/FLT001 - Filter]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
